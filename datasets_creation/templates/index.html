@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <title>Manual Check - Choose folder</title>
+
+    <style>
+      body {
+        margin-top: 30px;
+        font-family: sans-serif;
+        background: #121212;
+        color: #eee;
+      }
+
+      a.chooseFolder {
+        text-decoration: none;
+        color: #eee;
+        padding: 10px 15px;
+        background: #370665;
+        border: 2px solid #35589a;
+        display: block;
+        margin: 5px 0px;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        text-transform: capitalize;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .chipAction {
+        text-decoration: none;
+        background: #781c68;
+        border-radius: 100px;
+        border: 1px solid #9a0680;
+        font-weight: bold;
+        padding: 5px 15px;
+        display: inline-block;
+        color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <a href="#" class="chipAction" id="goback" style="display: none"
+        >Go back</a
+      >
+    </div>
+
+    <h1>Choose folder</h1>
+
+    <div id="listFolders"></div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      let folderTree;
+      let currentPath;
+
+      $.ajax({
+        url: "/getFolders",
+        success: function (folders) {
+          folderTree = folders;
+
+          listDirs(".");
+        },
+      });
+
+      $("#goback").click(function (e) {
+        e.preventDefault();
+
+        const pathKeys = currentPath.split("/");
+        pathKeys.pop();
+
+        listDirs(pathKeys.join("/"));
+      });
+
+      function listDirs(path) {
+        $("#listFolders").empty();
+
+        const pathKeys = path.split("/");
+        currentPath = path;
+
+        if (pathKeys.length == 1) {
+          $("#goback").hide();
+        } else {
+          $("#goback").show();
+        }
+
+        let foldersList = folderTree;
+        if (path.length > 0) {
+          pathKeys.forEach((key) => {
+            foldersList = foldersList[key];
+          });
+        }
+
+        for (const [folder, subfolders] of Object.entries(foldersList)) {
+          const isEmpty = Object.keys(subfolders).length <= 0;
+          let exPath = path.split("/");
+          exPath.shift();
+          const url = isEmpty ? `/check?p=${exPath.join("/")}/${folder}` : "#";
+          const folderSelector = $(
+            `<a class="chooseFolder" data-path="${path}/${folder}" href="${url}">${folder}</a>`
+          );
+
+          folderSelector.click(function (e) {
+            if ($(this).attr("href").length <= 1) {
+              e.preventDefault();
+              listDirs($(this).data("path"));
+            }
+          });
+
+          $("#listFolders").append(folderSelector);
+        }
+      }
+    </script>
+  </body>
+</html>
