@@ -21,6 +21,7 @@ tried_urls = []
 image_md5s = {}
 in_progress = 0
 urlopenheader = {'User-Agent': 'Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0'}
+inline = True
 
 
 def download(pool_sema: threading.Semaphore, img_sema: threading.Semaphore, url: str, output_dir: str, limit: int):
@@ -88,7 +89,7 @@ def fetch_images_from_keyword(pool_sema: threading.Semaphore, img_sema: threadin
 
         if in_progress > 10:
             continue
-
+    
         request_url = 'https://www.bing.com/images/async?q=' + urllib.parse.quote_plus(keyword) + '&first=' + str(
             current) + '&count=35&qft=' + ('' if filters is None else filters)
         request = urllib.request.Request(request_url, None, headers=urlopenheader)
@@ -99,7 +100,7 @@ def fetch_images_from_keyword(pool_sema: threading.Semaphore, img_sema: threadin
             if links[-1] == last:
                 return
             for index, link in enumerate(links):
-                if limit is not None and len(tried_urls) >= limit:
+                if inline and limit is not None and len(tried_urls) >= limit:
                     exit(0)
                 t = threading.Thread(target=download, args=(pool_sema, img_sema, link, output_dir, limit))
                 t.start()
@@ -118,26 +119,41 @@ def backup_history(*args):
     pickle.dump(copied_image_md5s, download_history)
     download_history.close()
     print('history_dumped')
-    if args:
+    if inline and args:
         exit(0)
 
+def bing_downloader(args):
+    global tried_urls, image_md5s, in_progress, urlopenheader, inline
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Bing image bulk downloader')
-    parser.add_argument('-s', '--search-string', help='Keyword to search', required=False)
-    parser.add_argument('-f', '--search-file', help='Path to a file containing search strings line by line',
-                        required=False)
-    parser.add_argument('-o', '--output', help='Output directory', required=False)
-    parser.add_argument('--adult-filter-off', help='Disable adult filter', action='store_true', required=False)
-    parser.add_argument('--filters',
-                        help='Any query based filters you want to append when searching for images, e.g. +filterui:license-L1',
-                        required=False)
-    parser.add_argument('--limit', help='Make sure not to search for more than specified amount of images.',
-                        required=False, type=int)
-    parser.add_argument('--threads', help='Number of threads', type=int, default=20)
-    args = parser.parse_args()
+    if not hasattr(args, "adult_filter_off"):
+        args.adult_filter_off = True
+    
+    if not hasattr(args, "threads"):
+        args.threads = 20
+    
+    if not hasattr(args, "search_string"):
+        args.search_string = None
+    
+    if not hasattr(args, "search_file"):
+        args.search_file = None
+    
+    if not hasattr(args, "output"):
+        args.output = None
+    
+    if not hasattr(args, "filters"):
+        args.filters = None
+    
+    if not hasattr(args, "limit"):
+        args.limit = None
+    
+    if not hasattr(args, "inline"):
+        args.inline = True
+    
+    inline = args.inline
+
     if (not args.search_string) and (not args.search_file):
-        parser.error('Provide Either search string or path to file containing search strings')
+        parser.error(
+            'Provide Either search string or path to file containing search strings')
     if args.output:
         output_dir = args.output
     if not os.path.exists(output_dir):
@@ -162,7 +178,8 @@ if __name__ == "__main__":
             inputFile = open(args.search_file)
         except (OSError, IOError):
             print("FAIL: Couldn't open file {}".format(args.search_file))
-            exit(1)
+            if inline:
+                exit(1)
         for keyword in inputFile.readlines():
             output_sub_dir = os.path.join(output_dir_origin, keyword.strip().replace(' ', '_'))
             if not os.path.exists(output_sub_dir):
@@ -171,3 +188,20 @@ if __name__ == "__main__":
             backup_history()
             time.sleep(10)
         inputFile.close()
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Bing image bulk downloader')
+    parser.add_argument('-s', '--search-string', help='Keyword to search', required=False)
+    parser.add_argument('-f', '--search-file', help='Path to a file containing search strings line by line',
+                        required=False)
+    parser.add_argument('-o', '--output', help='Output directory', required=False)
+    parser.add_argument('--adult-filter-off', help='Disable adult filter', action='store_true', required=False)
+    parser.add_argument('--filters',
+                        help='Any query based filters you want to append when searching for images, e.g. +filterui:license-L1',
+                        required=False)
+    parser.add_argument('--limit', help='Make sure not to search for more than specified amount of images.',
+                        required=False, type=int)
+    parser.add_argument('--threads', help='Number of threads', type=int, default=20)
+    args = parser.parse_args()
+    
+    bing_downloader(args)

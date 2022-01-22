@@ -1,2 +1,4 @@
 datasets/
-tmp/
+tmp*/
+__pycache__/
+.vscode/
