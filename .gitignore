@@ -1,6 +1,6 @@
 datasets/bing/train
 datasets/ddg/train
-datasets/google/
+datasets/google/train
 
 tmp*/
 __pycache__/
