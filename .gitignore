@@ -1,4 +1,7 @@
-datasets/
+datasets/bing/train
+datasets/ddg/
+datasets/google/
+
 tmp*/
 __pycache__/
 .vscode/
