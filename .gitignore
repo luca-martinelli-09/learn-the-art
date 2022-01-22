@@ -1,5 +1,5 @@
 datasets/bing/train
-datasets/ddg/
+datasets/ddg/train
 datasets/google/
 
 tmp*/
