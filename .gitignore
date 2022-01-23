@@ -2,3 +2,4 @@ tmp*/
 __pycache__/
 .vscode/
 models/
+orco-gan/
