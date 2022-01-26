@@ -1,5 +1,6 @@
 import os
 from torchvision.datasets.folder import ImageFolder
+from torchvision.datasets.folder import default_loader
 from typing import Callable, List, Optional, Tuple, Dict, Any
 
 class ImageLimitedDataset(ImageFolder):
@@ -18,11 +19,19 @@ class ImageLimitedDataset(ImageFolder):
 
     img = None
     try:
-      img = self.loader(path)
+      img = default_loader(path)
     except:
       return False
 
     return img is not None
+  
+  def filter_loader(self, path: str) -> Any:
+    target = default_loader(path)
+
+    if self.filter:
+      return self.filter(target)
+    
+    return target
 
   def make_dataset(
       self,
@@ -95,14 +104,17 @@ class ImageLimitedDataset(ImageFolder):
                target_transform: Optional[Callable] = None,
                slices: Optional[List[slice]] = None,
                check_images: Optional[bool] = True,
-               use_cache: Optional[bool] = False):
+               use_cache: Optional[bool] = False,
+               transform_filter: Optional[Callable] = None):
 
     self.slices = slices
     self.use_cache = use_cache
     self.cached_data = {}
+    self.filter = transform_filter
 
     super().__init__(root, transform=transform,
                      target_transform=target_transform,
+                     loader=self.filter_loader,
                      is_valid_file=self.is_valid_image if check_images else None)
 
   def __getitem__(self, index: int) -> Tuple[Any, Any]:
