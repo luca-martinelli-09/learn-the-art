@@ -1,0 +1,249 @@
+
+---------------
+[🗃️ TEST DATASET] bing
+
+---------------
+[🗃️ TEST DATASET] ddg
+[⚔️ ADVERSARIAL] FGSM - ddg - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 4.697265148162842
+[⚔️ ADVERSARIAL] CW - ddg - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 19.497395038604736
+[⚔️ ADVERSARIAL] FAB - ddg - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 88.54739570617676
+[⚔️ ADVERSARIAL] DIFGSM - ddg - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 4.268498659133911
+[⚔️ ADVERSARIAL] DeepFool - ddg - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 5.61442756652832
+[⚔️ ADVERSARIAL] FGSM - ddg - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.0699706077575684
+[⚔️ ADVERSARIAL] CW - ddg - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 19.34793257713318
+[⚔️ ADVERSARIAL] FAB - ddg - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 82.3310649394989
+[⚔️ ADVERSARIAL] DIFGSM - ddg - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 4.171968698501587
+[⚔️ ADVERSARIAL] DeepFool - ddg - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 6.685696601867676
+[⚔️ ADVERSARIAL] FGSM - ddg - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.08988356590271
+[⚔️ ADVERSARIAL] CW - ddg - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 19.541632890701294
+[⚔️ ADVERSARIAL] FAB - ddg - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 74.55836653709412
+[⚔️ ADVERSARIAL] DIFGSM - ddg - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 4.1504292488098145
+[⚔️ ADVERSARIAL] DeepFool - ddg - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 5.803326606750488
+[⚔️ ADVERSARIAL] FGSM - ddg - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.127528190612793
+[⚔️ ADVERSARIAL] CW - ddg - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 19.54571795463562
+[⚔️ ADVERSARIAL] FAB - ddg - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 79.38696217536926
+[⚔️ ADVERSARIAL] DIFGSM - ddg - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 4.140011787414551
+[⚔️ ADVERSARIAL] DeepFool - ddg - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 6.170917272567749
+[⚔️ ADVERSARIAL] FGSM - ddg - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.4903531074523926
+[⚔️ ADVERSARIAL] CW - ddg - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 56.07945156097412
+[⚔️ ADVERSARIAL] FAB - ddg - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 160.34540486335754
+[⚔️ ADVERSARIAL] DIFGSM - ddg - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 11.293307065963745
+[⚔️ ADVERSARIAL] DeepFool - ddg - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 13.747661828994751
+[⚔️ ADVERSARIAL] FGSM - ddg - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.4207990169525146
+[⚔️ ADVERSARIAL] CW - ddg - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 55.510653257369995
+[⚔️ ADVERSARIAL] FAB - ddg - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 156.61261224746704
+[⚔️ ADVERSARIAL] DIFGSM - ddg - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 11.370872735977173
+[⚔️ ADVERSARIAL] DeepFool - ddg - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 15.121918201446533
+[⚔️ ADVERSARIAL] FGSM - ddg - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.4773411750793457
+[⚔️ ADVERSARIAL] CW - ddg - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 56.211915493011475
+[⚔️ ADVERSARIAL] FAB - ddg - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 148.38359427452087
+[⚔️ ADVERSARIAL] DIFGSM - ddg - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 11.376338005065918
+[⚔️ ADVERSARIAL] DeepFool - ddg - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 13.068215131759644
+[⚔️ ADVERSARIAL] FGSM - ddg - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.4363043308258057
+[⚔️ ADVERSARIAL] CW - ddg - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 56.15170907974243
+[⚔️ ADVERSARIAL] FAB - ddg - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 158.42165517807007
+[⚔️ ADVERSARIAL] DIFGSM - ddg - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 11.266408205032349
+[⚔️ ADVERSARIAL] DeepFool - ddg - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 15.796443939208984
+[⚔️ ADVERSARIAL] FGSM - ddg - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 2.30609393119812
+[⚔️ ADVERSARIAL] CW - ddg - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 132.2401304244995
+[⚔️ ADVERSARIAL] FAB - ddg - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 313.3390460014343
+[⚔️ ADVERSARIAL] DIFGSM - ddg - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 26.6960289478302
+[⚔️ ADVERSARIAL] DeepFool - ddg - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 32.98977565765381
+[⚔️ ADVERSARIAL] FGSM - ddg - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 2.2440378665924072
+[⚔️ ADVERSARIAL] CW - ddg - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 133.15346670150757
+[⚔️ ADVERSARIAL] FAB - ddg - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 309.0280101299286
+[⚔️ ADVERSARIAL] DIFGSM - ddg - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 26.51826286315918
+[⚔️ ADVERSARIAL] DeepFool - ddg - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 32.49956655502319
+[⚔️ ADVERSARIAL] FGSM - ddg - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 2.2040011882781982
+[⚔️ ADVERSARIAL] CW - ddg - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 133.30353832244873
+[⚔️ ADVERSARIAL] FAB - ddg - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 306.9929533004761
+[⚔️ ADVERSARIAL] DIFGSM - ddg - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 26.413825750350952
+[⚔️ ADVERSARIAL] DeepFool - ddg - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 22.572845935821533
+[⚔️ ADVERSARIAL] FGSM - ddg - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 2.1879868507385254
+[⚔️ ADVERSARIAL] CW - ddg - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 132.02807641029358
+[⚔️ ADVERSARIAL] FAB - ddg - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 304.96226263046265
+[⚔️ ADVERSARIAL] DIFGSM - ddg - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 26.379361391067505
+[⚔️ ADVERSARIAL] DeepFool - ddg - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 24.825013399124146
+
+---------------
+[🗃️ TEST DATASET] google

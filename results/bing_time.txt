@@ -1,0 +1,300 @@
+[🗃️ TEST DATASET] bing
+[⚔️ ADVERSARIAL] FGSM - bing - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 4.042710781097412
+[⚔️ ADVERSARIAL] CW - bing - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 19.654471158981323
+[⚔️ ADVERSARIAL] FAB - bing - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 89.59615778923035
+[⚔️ ADVERSARIAL] Square - bing - alexnet 20_80
+Elapsed seconds: 0.10609579086303711
+[⚔️ ADVERSARIAL] DeepFool - bing - alexnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 5.678950071334839
+[⚔️ ADVERSARIAL] FGSM - bing - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.1200168132781982
+[⚔️ ADVERSARIAL] CW - bing - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 19.96665358543396
+[⚔️ ADVERSARIAL] FAB - bing - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 83.9500503540039
+[⚔️ ADVERSARIAL] Square - bing - alexnet 30_70
+Elapsed seconds: 0.11510443687438965
+[⚔️ ADVERSARIAL] DeepFool - bing - alexnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 5.498296737670898
+[⚔️ ADVERSARIAL] FGSM - bing - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.1490435600280762
+[⚔️ ADVERSARIAL] CW - bing - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 19.54141092300415
+[⚔️ ADVERSARIAL] FAB - bing - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 85.43423461914062
+[⚔️ ADVERSARIAL] Square - bing - alexnet 40_60
+Elapsed seconds: 0.13312149047851562
+[⚔️ ADVERSARIAL] DeepFool - bing - alexnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 5.975122690200806
+[⚔️ ADVERSARIAL] FGSM - bing - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.17106294631958
+[⚔️ ADVERSARIAL] CW - bing - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 20.10696578025818
+[⚔️ ADVERSARIAL] FAB - bing - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 86.53262519836426
+[⚔️ ADVERSARIAL] Square - bing - alexnet 50_50
+Elapsed seconds: 0.11810731887817383
+[⚔️ ADVERSARIAL] DeepFool - bing - alexnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 6.499178409576416
+[⚔️ ADVERSARIAL] FGSM - bing - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.5814361572265625
+[⚔️ ADVERSARIAL] CW - bing - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 57.651721239089966
+[⚔️ ADVERSARIAL] FAB - bing - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 167.71835827827454
+[⚔️ ADVERSARIAL] Square - bing - resnet 20_80
+Elapsed seconds: 0.11010050773620605
+[⚔️ ADVERSARIAL] DeepFool - bing - resnet 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 12.317169666290283
+[⚔️ ADVERSARIAL] FGSM - bing - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.5333921909332275
+[⚔️ ADVERSARIAL] CW - bing - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 57.173985958099365
+[⚔️ ADVERSARIAL] FAB - bing - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 161.75553727149963
+[⚔️ ADVERSARIAL] Square - bing - resnet 30_70
+Elapsed seconds: 0.12911725044250488
+[⚔️ ADVERSARIAL] DeepFool - bing - resnet 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 13.076064348220825
+[⚔️ ADVERSARIAL] FGSM - bing - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.5013632774353027
+[⚔️ ADVERSARIAL] CW - bing - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 55.89600610733032
+[⚔️ ADVERSARIAL] FAB - bing - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 156.25747990608215
+[⚔️ ADVERSARIAL] Square - bing - resnet 40_60
+Elapsed seconds: 0.11110067367553711
+[⚔️ ADVERSARIAL] DeepFool - bing - resnet 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 10.513850450515747
+[⚔️ ADVERSARIAL] FGSM - bing - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 1.5403993129730225
+[⚔️ ADVERSARIAL] CW - bing - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 57.007121562957764
+[⚔️ ADVERSARIAL] FAB - bing - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 164.64203119277954
+[⚔️ ADVERSARIAL] Square - bing - resnet 50_50
+Elapsed seconds: 0.10810017585754395
+[⚔️ ADVERSARIAL] DeepFool - bing - resnet 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 13.02199101448059
+[⚔️ ADVERSARIAL] FGSM - bing - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 2.2315311431884766
+[⚔️ ADVERSARIAL] CW - bing - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 133.40241503715515
+[⚔️ ADVERSARIAL] FAB - bing - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 306.9802448749542
+[⚔️ ADVERSARIAL] Square - bing - vgg 40_60
+Elapsed seconds: 0.13812494277954102
+[⚔️ ADVERSARIAL] DeepFool - bing - vgg 40_60
+Sample # 100
+Sample # 200
+Elapsed seconds: 28.125257968902588
+[⚔️ ADVERSARIAL] FGSM - bing - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 2.2480411529541016
+[⚔️ ADVERSARIAL] CW - bing - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 135.62113308906555
+[⚔️ ADVERSARIAL] FAB - bing - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 313.3110361099243
+[⚔️ ADVERSARIAL] Square - bing - vgg 50_50
+Elapsed seconds: 0.10909867286682129
+[⚔️ ADVERSARIAL] DeepFool - bing - vgg 50_50
+Sample # 100
+Sample # 200
+Elapsed seconds: 20.432536840438843
+
+DIFGSM
+
+[{'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'alexnet',
+  'modelDataset': 'bing',
+  'balancing': '20/80',
+  'time': 6.625547885894775},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'alexnet',
+  'modelDataset': 'bing',
+  'balancing': '30/70',
+  'time': 4.196868658065796},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'alexnet',
+  'modelDataset': 'bing',
+  'balancing': '40/60',
+  'time': 4.15775728225708},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'alexnet',
+  'modelDataset': 'bing',
+  'balancing': '50/50',
+  'time': 4.069939136505127},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'resnet',
+  'modelDataset': 'bing',
+  'balancing': '20/80',
+  'time': 11.227596282958984},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'resnet',
+  'modelDataset': 'bing',
+  'balancing': '30/70',
+  'time': 11.13877820968628},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'resnet',
+  'modelDataset': 'bing',
+  'balancing': '40/60',
+  'time': 11.141122341156006},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'resnet',
+  'modelDataset': 'bing',
+  'balancing': '50/50',
+  'time': 11.149043083190918},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'vgg',
+  'modelDataset': 'bing',
+  'balancing': '40/60',
+  'time': 26.242778539657593},
+ {'dataset': 'bing',
+  'type': 'math',
+  'attack': 'DIFGSM',
+  'model': 'vgg',
+  'modelDataset': 'bing',
+  'balancing': '50/50',
+  'time': 26.541282176971436}]
+
+***************ULTIMI VGG******************
+
+
+---------------
+[🗃️ TEST DATASET] bing
+[⚔️ ADVERSARIAL] FGSM - bing - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 6.488609552383423
+[⚔️ ADVERSARIAL] CW - bing - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 132.63963198661804
+[⚔️ ADVERSARIAL] FAB - bing - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 313.9075322151184
+[⚔️ ADVERSARIAL] DIFGSM - bing - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 27.175665140151978
+[⚔️ ADVERSARIAL] DeepFool - bing - vgg 20_80
+Sample # 100
+Sample # 200
+Elapsed seconds: 22.296764135360718
+[⚔️ ADVERSARIAL] FGSM - bing - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 2.319631338119507
+[⚔️ ADVERSARIAL] CW - bing - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 135.17739152908325
+[⚔️ ADVERSARIAL] FAB - bing - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 308.7525374889374
+[⚔️ ADVERSARIAL] DIFGSM - bing - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 26.61157512664795
+[⚔️ ADVERSARIAL] DeepFool - bing - vgg 30_70
+Sample # 100
+Sample # 200
+Elapsed seconds: 21.154441833496094

@@ -1,0 +1,5305 @@
+[🧠 MODELS EVALUATION - NON MATH ATTACKS]
+
+---------------
+[🗃️ ADVERSARIAL DATASET] bing/BoxBlur
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9325
+	Pre: 0.9179
+	Rec: 0.9500
+	F-Score: 0.9337
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9300
+	Pre: 0.9352
+	Rec: 0.9240
+	F-Score: 0.9296
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9390
+	Pre: 0.9631
+	Rec: 0.9130
+	F-Score: 0.9374
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9380
+	Pre: 0.9433
+	Rec: 0.9320
+	F-Score: 0.9376
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9535
+	Pre: 0.9274
+	Rec: 0.9840
+	F-Score: 0.9549
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9615
+	Pre: 0.9520
+	Rec: 0.9720
+	F-Score: 0.9619
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9625
+	Pre: 0.9695
+	Rec: 0.9550
+	F-Score: 0.9622
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9620
+	Pre: 0.9565
+	Rec: 0.9680
+	F-Score: 0.9622
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9595
+	Pre: 0.9315
+	Rec: 0.9920
+	F-Score: 0.9608
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9645
+	Pre: 0.9445
+	Rec: 0.9870
+	F-Score: 0.9653
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9725
+	Pre: 0.9664
+	Rec: 0.9790
+	F-Score: 0.9727
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9700
+	Pre: 0.9635
+	Rec: 0.9770
+	F-Score: 0.9702
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9150
+	Pre: 0.8699
+	Rec: 0.9760
+	F-Score: 0.9199
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9390
+	Pre: 0.9221
+	Rec: 0.9590
+	F-Score: 0.9402
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9405
+	Pre: 0.9383
+	Rec: 0.9430
+	F-Score: 0.9406
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9325
+	Pre: 0.9179
+	Rec: 0.9500
+	F-Score: 0.9337
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9365
+	Pre: 0.9023
+	Rec: 0.9790
+	F-Score: 0.9391
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9535
+	Pre: 0.9323
+	Rec: 0.9780
+	F-Score: 0.9546
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9635
+	Pre: 0.9677
+	Rec: 0.9590
+	F-Score: 0.9633
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9520
+	Pre: 0.9330
+	Rec: 0.9740
+	F-Score: 0.9530
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9425
+	Pre: 0.9012
+	Rec: 0.9940
+	F-Score: 0.9453
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9555
+	Pre: 0.9261
+	Rec: 0.9900
+	F-Score: 0.9570
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9710
+	Pre: 0.9636
+	Rec: 0.9790
+	F-Score: 0.9712
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9660
+	Pre: 0.9587
+	Rec: 0.9740
+	F-Score: 0.9663
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9220
+	Pre: 0.8822
+	Rec: 0.9740
+	F-Score: 0.9259
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9320
+	Pre: 0.9106
+	Rec: 0.9580
+	F-Score: 0.9337
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9425
+	Pre: 0.9251
+	Rec: 0.9630
+	F-Score: 0.9437
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9450
+	Pre: 0.9459
+	Rec: 0.9440
+	F-Score: 0.9449
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9355
+	Pre: 0.8920
+	Rec: 0.9910
+	F-Score: 0.9389
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9600
+	Pre: 0.9501
+	Rec: 0.9710
+	F-Score: 0.9604
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9660
+	Pre: 0.9578
+	Rec: 0.9750
+	F-Score: 0.9663
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9660
+	Pre: 0.9641
+	Rec: 0.9680
+	F-Score: 0.9661
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9590
+	Pre: 0.9266
+	Rec: 0.9970
+	F-Score: 0.9605
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9625
+	Pre: 0.9384
+	Rec: 0.9900
+	F-Score: 0.9635
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9665
+	Pre: 0.9569
+	Rec: 0.9770
+	F-Score: 0.9668
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9680
+	Pre: 0.9671
+	Rec: 0.9690
+	F-Score: 0.9680
+
+---------------
+[🗃️ ADVERSARIAL DATASET] bing/GaussianNoise
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9010
+	Pre: 0.8549
+	Rec: 0.9660
+	F-Score: 0.9070
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9100
+	Pre: 0.8965
+	Rec: 0.9270
+	F-Score: 0.9115
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9265
+	Pre: 0.9330
+	Rec: 0.9190
+	F-Score: 0.9259
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9085
+	Pre: 0.8879
+	Rec: 0.9350
+	F-Score: 0.9109
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9035
+	Pre: 0.8593
+	Rec: 0.9650
+	F-Score: 0.9091
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9385
+	Pre: 0.9312
+	Rec: 0.9470
+	F-Score: 0.9390
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9350
+	Pre: 0.9569
+	Rec: 0.9110
+	F-Score: 0.9334
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9420
+	Pre: 0.9376
+	Rec: 0.9470
+	F-Score: 0.9423
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9295
+	Pre: 0.8966
+	Rec: 0.9710
+	F-Score: 0.9323
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9370
+	Pre: 0.9130
+	Rec: 0.9660
+	F-Score: 0.9388
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9450
+	Pre: 0.9522
+	Rec: 0.9370
+	F-Score: 0.9446
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9480
+	Pre: 0.9498
+	Rec: 0.9460
+	F-Score: 0.9479
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8650
+	Pre: 0.8012
+	Rec: 0.9710
+	F-Score: 0.8779
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9185
+	Pre: 0.8922
+	Rec: 0.9520
+	F-Score: 0.9211
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9145
+	Pre: 0.9217
+	Rec: 0.9060
+	F-Score: 0.9138
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9105
+	Pre: 0.9093
+	Rec: 0.9120
+	F-Score: 0.9106
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9040
+	Pre: 0.8550
+	Rec: 0.9730
+	F-Score: 0.9102
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9420
+	Pre: 0.9394
+	Rec: 0.9450
+	F-Score: 0.9422
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9390
+	Pre: 0.9710
+	Rec: 0.9050
+	F-Score: 0.9369
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9425
+	Pre: 0.9456
+	Rec: 0.9390
+	F-Score: 0.9423
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9130
+	Pre: 0.8573
+	Rec: 0.9910
+	F-Score: 0.9193
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9330
+	Pre: 0.9009
+	Rec: 0.9730
+	F-Score: 0.9356
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9435
+	Pre: 0.9521
+	Rec: 0.9340
+	F-Score: 0.9430
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9460
+	Pre: 0.9496
+	Rec: 0.9420
+	F-Score: 0.9458
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8770
+	Pre: 0.8126
+	Rec: 0.9800
+	F-Score: 0.8885
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9090
+	Pre: 0.8808
+	Rec: 0.9460
+	F-Score: 0.9122
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9155
+	Pre: 0.9110
+	Rec: 0.9210
+	F-Score: 0.9160
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9300
+	Pre: 0.9526
+	Rec: 0.9050
+	F-Score: 0.9282
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9175
+	Pre: 0.8678
+	Rec: 0.9850
+	F-Score: 0.9227
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9445
+	Pre: 0.9597
+	Rec: 0.9280
+	F-Score: 0.9436
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9455
+	Pre: 0.9607
+	Rec: 0.9290
+	F-Score: 0.9446
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9460
+	Pre: 0.9715
+	Rec: 0.9190
+	F-Score: 0.9445
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9190
+	Pre: 0.8675
+	Rec: 0.9890
+	F-Score: 0.9243
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9335
+	Pre: 0.9025
+	Rec: 0.9720
+	F-Score: 0.9360
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9425
+	Pre: 0.9394
+	Rec: 0.9460
+	F-Score: 0.9427
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9460
+	Pre: 0.9665
+	Rec: 0.9240
+	F-Score: 0.9448
+
+---------------
+[🗃️ ADVERSARIAL DATASET] bing/GreyScale
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.8650
+	Pre: 0.8067
+	Rec: 0.9600
+	F-Score: 0.8767
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9045
+	Pre: 0.9049
+	Rec: 0.9040
+	F-Score: 0.9045
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9055
+	Pre: 0.9441
+	Rec: 0.8620
+	F-Score: 0.9012
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9055
+	Pre: 0.9432
+	Rec: 0.8630
+	F-Score: 0.9013
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9305
+	Pre: 0.8939
+	Rec: 0.9770
+	F-Score: 0.9336
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9515
+	Pre: 0.9329
+	Rec: 0.9730
+	F-Score: 0.9525
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9420
+	Pre: 0.9585
+	Rec: 0.9240
+	F-Score: 0.9409
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9555
+	Pre: 0.9444
+	Rec: 0.9680
+	F-Score: 0.9560
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9420
+	Pre: 0.9070
+	Rec: 0.9850
+	F-Score: 0.9444
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9545
+	Pre: 0.9341
+	Rec: 0.9780
+	F-Score: 0.9555
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9630
+	Pre: 0.9658
+	Rec: 0.9600
+	F-Score: 0.9629
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9610
+	Pre: 0.9537
+	Rec: 0.9690
+	F-Score: 0.9613
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8935
+	Pre: 0.8548
+	Rec: 0.9480
+	F-Score: 0.8990
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.8965
+	Pre: 0.8641
+	Rec: 0.9410
+	F-Score: 0.9009
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9130
+	Pre: 0.9470
+	Rec: 0.8750
+	F-Score: 0.9096
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9125
+	Pre: 0.9040
+	Rec: 0.9230
+	F-Score: 0.9134
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9415
+	Pre: 0.9282
+	Rec: 0.9570
+	F-Score: 0.9424
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9595
+	Pre: 0.9590
+	Rec: 0.9600
+	F-Score: 0.9595
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9495
+	Pre: 0.9727
+	Rec: 0.9250
+	F-Score: 0.9482
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9570
+	Pre: 0.9428
+	Rec: 0.9730
+	F-Score: 0.9577
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9485
+	Pre: 0.9164
+	Rec: 0.9870
+	F-Score: 0.9504
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9625
+	Pre: 0.9477
+	Rec: 0.9790
+	F-Score: 0.9631
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9635
+	Pre: 0.9576
+	Rec: 0.9700
+	F-Score: 0.9637
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9660
+	Pre: 0.9698
+	Rec: 0.9620
+	F-Score: 0.9659
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8825
+	Pre: 0.8239
+	Rec: 0.9730
+	F-Score: 0.8923
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.8795
+	Pre: 0.8208
+	Rec: 0.9710
+	F-Score: 0.8896
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.8935
+	Pre: 0.8473
+	Rec: 0.9600
+	F-Score: 0.9001
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9090
+	Pre: 0.8903
+	Rec: 0.9330
+	F-Score: 0.9111
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.8470
+	Pre: 0.7665
+	Rec: 0.9980
+	F-Score: 0.8671
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9370
+	Pre: 0.8980
+	Rec: 0.9860
+	F-Score: 0.9399
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9465
+	Pre: 0.9200
+	Rec: 0.9780
+	F-Score: 0.9481
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9540
+	Pre: 0.9391
+	Rec: 0.9710
+	F-Score: 0.9548
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9425
+	Pre: 0.9026
+	Rec: 0.9920
+	F-Score: 0.9452
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9510
+	Pre: 0.9207
+	Rec: 0.9870
+	F-Score: 0.9527
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9580
+	Pre: 0.9379
+	Rec: 0.9810
+	F-Score: 0.9589
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9655
+	Pre: 0.9650
+	Rec: 0.9660
+	F-Score: 0.9655
+
+---------------
+[🗃️ ADVERSARIAL DATASET] bing/InvertColor
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.7760
+	Pre: 0.8909
+	Rec: 0.6290
+	F-Score: 0.7374
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.7305
+	Pre: 0.8835
+	Rec: 0.5310
+	F-Score: 0.6633
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.7315
+	Pre: 0.9327
+	Rec: 0.4990
+	F-Score: 0.6502
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.7150
+	Pre: 0.9135
+	Rec: 0.4750
+	F-Score: 0.6250
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.8075
+	Pre: 0.8413
+	Rec: 0.7580
+	F-Score: 0.7975
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.7905
+	Pre: 0.9192
+	Rec: 0.6370
+	F-Score: 0.7525
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.6900
+	Pre: 0.9241
+	Rec: 0.4140
+	F-Score: 0.5718
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.7535
+	Pre: 0.9378
+	Rec: 0.5430
+	F-Score: 0.6878
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.8045
+	Pre: 0.8700
+	Rec: 0.7160
+	F-Score: 0.7855
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.7960
+	Pre: 0.9157
+	Rec: 0.6520
+	F-Score: 0.7617
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.7335
+	Pre: 0.9661
+	Rec: 0.4840
+	F-Score: 0.6449
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.7490
+	Pre: 0.9544
+	Rec: 0.5230
+	F-Score: 0.6757
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8020
+	Pre: 0.8356
+	Rec: 0.7520
+	F-Score: 0.7916
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.7805
+	Pre: 0.8945
+	Rec: 0.6360
+	F-Score: 0.7434
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.7495
+	Pre: 0.9138
+	Rec: 0.5510
+	F-Score: 0.6875
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.7620
+	Pre: 0.8876
+	Rec: 0.6000
+	F-Score: 0.7160
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.7975
+	Pre: 0.8606
+	Rec: 0.7100
+	F-Score: 0.7781
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.8015
+	Pre: 0.9277
+	Rec: 0.6540
+	F-Score: 0.7672
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.7255
+	Pre: 0.9396
+	Rec: 0.4820
+	F-Score: 0.6371
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.8070
+	Pre: 0.9515
+	Rec: 0.6470
+	F-Score: 0.7702
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.8450
+	Pre: 0.8894
+	Rec: 0.7880
+	F-Score: 0.8356
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.8200
+	Pre: 0.9360
+	Rec: 0.6870
+	F-Score: 0.7924
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.7260
+	Pre: 0.9768
+	Rec: 0.4630
+	F-Score: 0.6282
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.7490
+	Pre: 0.9716
+	Rec: 0.5130
+	F-Score: 0.6715
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8075
+	Pre: 0.8443
+	Rec: 0.7540
+	F-Score: 0.7966
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.7965
+	Pre: 0.8836
+	Rec: 0.6830
+	F-Score: 0.7704
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.7880
+	Pre: 0.8850
+	Rec: 0.6620
+	F-Score: 0.7574
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.7565
+	Pre: 0.9157
+	Rec: 0.5650
+	F-Score: 0.6988
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.8450
+	Pre: 0.8218
+	Rec: 0.8810
+	F-Score: 0.8504
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.8270
+	Pre: 0.9455
+	Rec: 0.6940
+	F-Score: 0.8005
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.8085
+	Pre: 0.9291
+	Rec: 0.6680
+	F-Score: 0.7772
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.7725
+	Pre: 0.9519
+	Rec: 0.5740
+	F-Score: 0.7162
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.8615
+	Pre: 0.8809
+	Rec: 0.8360
+	F-Score: 0.8579
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.8400
+	Pre: 0.9337
+	Rec: 0.7320
+	F-Score: 0.8206
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.7765
+	Pre: 0.9570
+	Rec: 0.5790
+	F-Score: 0.7215
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.7205
+	Pre: 0.9762
+	Rec: 0.4520
+	F-Score: 0.6179
+
+---------------
+[🗃️ ADVERSARIAL DATASET] bing/RandomBlackBox
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9080
+	Pre: 0.8716
+	Rec: 0.9570
+	F-Score: 0.9123
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9180
+	Pre: 0.9197
+	Rec: 0.9160
+	F-Score: 0.9178
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9200
+	Pre: 0.9506
+	Rec: 0.8860
+	F-Score: 0.9172
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9265
+	Pre: 0.9374
+	Rec: 0.9140
+	F-Score: 0.9256
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9230
+	Pre: 0.8724
+	Rec: 0.9910
+	F-Score: 0.9279
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9610
+	Pre: 0.9583
+	Rec: 0.9640
+	F-Score: 0.9611
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9505
+	Pre: 0.9602
+	Rec: 0.9400
+	F-Score: 0.9500
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9590
+	Pre: 0.9536
+	Rec: 0.9650
+	F-Score: 0.9592
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9615
+	Pre: 0.9399
+	Rec: 0.9860
+	F-Score: 0.9624
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9655
+	Pre: 0.9498
+	Rec: 0.9830
+	F-Score: 0.9661
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9690
+	Pre: 0.9690
+	Rec: 0.9690
+	F-Score: 0.9690
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9685
+	Pre: 0.9680
+	Rec: 0.9690
+	F-Score: 0.9685
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9100
+	Pre: 0.8700
+	Rec: 0.9640
+	F-Score: 0.9146
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9260
+	Pre: 0.9185
+	Rec: 0.9350
+	F-Score: 0.9267
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9300
+	Pre: 0.9451
+	Rec: 0.9130
+	F-Score: 0.9288
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9265
+	Pre: 0.9227
+	Rec: 0.9310
+	F-Score: 0.9268
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9275
+	Pre: 0.8904
+	Rec: 0.9750
+	F-Score: 0.9308
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9585
+	Pre: 0.9544
+	Rec: 0.9630
+	F-Score: 0.9587
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9520
+	Pre: 0.9788
+	Rec: 0.9240
+	F-Score: 0.9506
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9575
+	Pre: 0.9552
+	Rec: 0.9600
+	F-Score: 0.9576
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9515
+	Pre: 0.9184
+	Rec: 0.9910
+	F-Score: 0.9533
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9620
+	Pre: 0.9468
+	Rec: 0.9790
+	F-Score: 0.9626
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9690
+	Pre: 0.9728
+	Rec: 0.9650
+	F-Score: 0.9689
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9665
+	Pre: 0.9633
+	Rec: 0.9700
+	F-Score: 0.9666
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9140
+	Pre: 0.8743
+	Rec: 0.9670
+	F-Score: 0.9183
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9250
+	Pre: 0.9055
+	Rec: 0.9490
+	F-Score: 0.9268
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9245
+	Pre: 0.9117
+	Rec: 0.9400
+	F-Score: 0.9257
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9290
+	Pre: 0.9281
+	Rec: 0.9300
+	F-Score: 0.9291
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9285
+	Pre: 0.8789
+	Rec: 0.9940
+	F-Score: 0.9329
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9565
+	Pre: 0.9515
+	Rec: 0.9620
+	F-Score: 0.9567
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9585
+	Pre: 0.9580
+	Rec: 0.9590
+	F-Score: 0.9585
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9625
+	Pre: 0.9705
+	Rec: 0.9540
+	F-Score: 0.9622
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9620
+	Pre: 0.9342
+	Rec: 0.9940
+	F-Score: 0.9632
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9650
+	Pre: 0.9463
+	Rec: 0.9860
+	F-Score: 0.9657
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9655
+	Pre: 0.9550
+	Rec: 0.9770
+	F-Score: 0.9659
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9670
+	Pre: 0.9717
+	Rec: 0.9620
+	F-Score: 0.9668
+
+---------------
+[🗃️ ADVERSARIAL DATASET] bing/SaltPepper
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.6865
+	Pre: 0.6251
+	Rec: 0.9320
+	F-Score: 0.7483
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.6610
+	Pre: 0.6006
+	Rec: 0.9610
+	F-Score: 0.7392
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.7110
+	Pre: 0.6433
+	Rec: 0.9470
+	F-Score: 0.7662
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.7735
+	Pre: 0.8097
+	Rec: 0.7150
+	F-Score: 0.7594
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.7465
+	Pre: 0.7219
+	Rec: 0.8020
+	F-Score: 0.7598
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.7205
+	Pre: 0.6539
+	Rec: 0.9370
+	F-Score: 0.7702
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.7330
+	Pre: 0.8552
+	Rec: 0.5610
+	F-Score: 0.6775
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.7175
+	Pre: 0.6552
+	Rec: 0.9180
+	F-Score: 0.7647
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.7445
+	Pre: 0.7022
+	Rec: 0.8490
+	F-Score: 0.7687
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.7520
+	Pre: 0.7246
+	Rec: 0.8130
+	F-Score: 0.7663
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.7045
+	Pre: 0.8739
+	Rec: 0.4780
+	F-Score: 0.6180
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.7560
+	Pre: 0.8377
+	Rec: 0.6350
+	F-Score: 0.7224
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.7050
+	Pre: 0.6494
+	Rec: 0.8910
+	F-Score: 0.7513
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.7205
+	Pre: 0.6625
+	Rec: 0.8990
+	F-Score: 0.7628
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.7105
+	Pre: 0.8834
+	Rec: 0.4850
+	F-Score: 0.6262
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.7610
+	Pre: 0.8085
+	Rec: 0.6840
+	F-Score: 0.7411
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.6745
+	Pre: 0.6626
+	Rec: 0.7110
+	F-Score: 0.6860
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.7655
+	Pre: 0.8315
+	Rec: 0.6660
+	F-Score: 0.7396
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.7160
+	Pre: 0.8776
+	Rec: 0.5020
+	F-Score: 0.6387
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.7510
+	Pre: 0.7728
+	Rec: 0.7110
+	F-Score: 0.7406
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.7580
+	Pre: 0.7267
+	Rec: 0.8270
+	F-Score: 0.7736
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.7390
+	Pre: 0.7089
+	Rec: 0.8110
+	F-Score: 0.7565
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.7295
+	Pre: 0.8937
+	Rec: 0.5210
+	F-Score: 0.6582
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.6820
+	Pre: 0.9233
+	Rec: 0.3970
+	F-Score: 0.5552
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.5455
+	Pre: 0.5238
+	Rec: 1.0000
+	F-Score: 0.6875
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.6545
+	Pre: 0.5969
+	Rec: 0.9520
+	F-Score: 0.7337
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.7040
+	Pre: 0.6478
+	Rec: 0.8940
+	F-Score: 0.7513
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.7275
+	Pre: 0.6839
+	Rec: 0.8460
+	F-Score: 0.7564
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.5765
+	Pre: 0.5414
+	Rec: 1.0000
+	F-Score: 0.7025
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.7040
+	Pre: 0.6407
+	Rec: 0.9290
+	F-Score: 0.7584
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.7235
+	Pre: 0.6532
+	Rec: 0.9530
+	F-Score: 0.7751
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.7400
+	Pre: 0.7069
+	Rec: 0.8200
+	F-Score: 0.7593
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.6535
+	Pre: 0.5915
+	Rec: 0.9920
+	F-Score: 0.7411
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.7015
+	Pre: 0.6402
+	Rec: 0.9200
+	F-Score: 0.7550
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.7470
+	Pre: 0.7639
+	Rec: 0.7150
+	F-Score: 0.7386
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.7245
+	Pre: 0.8699
+	Rec: 0.5280
+	F-Score: 0.6571
+
+---------------
+[🗃️ ADVERSARIAL DATASET] bing/Sharpen
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9160
+	Pre: 0.8643
+	Rec: 0.9870
+	F-Score: 0.9216
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9425
+	Pre: 0.9259
+	Rec: 0.9620
+	F-Score: 0.9436
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9455
+	Pre: 0.9514
+	Rec: 0.9390
+	F-Score: 0.9451
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9455
+	Pre: 0.9355
+	Rec: 0.9570
+	F-Score: 0.9461
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9385
+	Pre: 0.8926
+	Rec: 0.9970
+	F-Score: 0.9419
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9665
+	Pre: 0.9499
+	Rec: 0.9850
+	F-Score: 0.9671
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9680
+	Pre: 0.9606
+	Rec: 0.9760
+	F-Score: 0.9683
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9655
+	Pre: 0.9472
+	Rec: 0.9860
+	F-Score: 0.9662
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9635
+	Pre: 0.9369
+	Rec: 0.9940
+	F-Score: 0.9646
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9705
+	Pre: 0.9511
+	Rec: 0.9920
+	F-Score: 0.9711
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9770
+	Pre: 0.9704
+	Rec: 0.9840
+	F-Score: 0.9772
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9770
+	Pre: 0.9695
+	Rec: 0.9850
+	F-Score: 0.9772
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9220
+	Pre: 0.8850
+	Rec: 0.9700
+	F-Score: 0.9256
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9465
+	Pre: 0.9289
+	Rec: 0.9670
+	F-Score: 0.9476
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9515
+	Pre: 0.9529
+	Rec: 0.9500
+	F-Score: 0.9514
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9465
+	Pre: 0.9443
+	Rec: 0.9490
+	F-Score: 0.9466
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9470
+	Pre: 0.9116
+	Rec: 0.9900
+	F-Score: 0.9492
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9670
+	Pre: 0.9561
+	Rec: 0.9790
+	F-Score: 0.9674
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9650
+	Pre: 0.9688
+	Rec: 0.9610
+	F-Score: 0.9649
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9650
+	Pre: 0.9532
+	Rec: 0.9780
+	F-Score: 0.9654
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9615
+	Pre: 0.9317
+	Rec: 0.9960
+	F-Score: 0.9628
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9715
+	Pre: 0.9547
+	Rec: 0.9900
+	F-Score: 0.9720
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9745
+	Pre: 0.9684
+	Rec: 0.9810
+	F-Score: 0.9747
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9725
+	Pre: 0.9664
+	Rec: 0.9790
+	F-Score: 0.9727
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9315
+	Pre: 0.8926
+	Rec: 0.9810
+	F-Score: 0.9347
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9430
+	Pre: 0.9318
+	Rec: 0.9560
+	F-Score: 0.9437
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9495
+	Pre: 0.9420
+	Rec: 0.9580
+	F-Score: 0.9499
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9585
+	Pre: 0.9580
+	Rec: 0.9590
+	F-Score: 0.9585
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9520
+	Pre: 0.9170
+	Rec: 0.9940
+	F-Score: 0.9539
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9665
+	Pre: 0.9605
+	Rec: 0.9730
+	F-Score: 0.9667
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9685
+	Pre: 0.9625
+	Rec: 0.9750
+	F-Score: 0.9687
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9715
+	Pre: 0.9692
+	Rec: 0.9740
+	F-Score: 0.9716
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9670
+	Pre: 0.9431
+	Rec: 0.9940
+	F-Score: 0.9679
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9715
+	Pre: 0.9538
+	Rec: 0.9910
+	F-Score: 0.9720
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9760
+	Pre: 0.9685
+	Rec: 0.9840
+	F-Score: 0.9762
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9780
+	Pre: 0.9770
+	Rec: 0.9790
+	F-Score: 0.9780
+
+---------------
+[🗃️ ADVERSARIAL DATASET] bing/SplitMergeRGB
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.8870
+	Pre: 0.9216
+	Rec: 0.8460
+	F-Score: 0.8822
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.8900
+	Pre: 0.9248
+	Rec: 0.8490
+	F-Score: 0.8853
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.8645
+	Pre: 0.9573
+	Rec: 0.7630
+	F-Score: 0.8492
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.8680
+	Pre: 0.9554
+	Rec: 0.7720
+	F-Score: 0.8540
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9195
+	Pre: 0.8776
+	Rec: 0.9750
+	F-Score: 0.9237
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9420
+	Pre: 0.9202
+	Rec: 0.9680
+	F-Score: 0.9435
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9210
+	Pre: 0.9784
+	Rec: 0.8610
+	F-Score: 0.9160
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9515
+	Pre: 0.9484
+	Rec: 0.9550
+	F-Score: 0.9517
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9500
+	Pre: 0.9245
+	Rec: 0.9800
+	F-Score: 0.9515
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9550
+	Pre: 0.9559
+	Rec: 0.9540
+	F-Score: 0.9550
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9525
+	Pre: 0.9718
+	Rec: 0.9320
+	F-Score: 0.9515
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9515
+	Pre: 0.9728
+	Rec: 0.9290
+	F-Score: 0.9504
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8895
+	Pre: 0.8720
+	Rec: 0.9130
+	F-Score: 0.8920
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.8915
+	Pre: 0.9516
+	Rec: 0.8250
+	F-Score: 0.8838
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.8860
+	Pre: 0.9308
+	Rec: 0.8340
+	F-Score: 0.8797
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.8765
+	Pre: 0.9254
+	Rec: 0.8190
+	F-Score: 0.8690
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9215
+	Pre: 0.8733
+	Rec: 0.9860
+	F-Score: 0.9263
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9490
+	Pre: 0.9393
+	Rec: 0.9600
+	F-Score: 0.9496
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9495
+	Pre: 0.9582
+	Rec: 0.9400
+	F-Score: 0.9490
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9480
+	Pre: 0.9299
+	Rec: 0.9690
+	F-Score: 0.9491
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9495
+	Pre: 0.9261
+	Rec: 0.9770
+	F-Score: 0.9509
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9565
+	Pre: 0.9454
+	Rec: 0.9690
+	F-Score: 0.9570
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9530
+	Pre: 0.9632
+	Rec: 0.9420
+	F-Score: 0.9525
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9580
+	Pre: 0.9761
+	Rec: 0.9390
+	F-Score: 0.9572
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8890
+	Pre: 0.8937
+	Rec: 0.8830
+	F-Score: 0.8883
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.8865
+	Pre: 0.9187
+	Rec: 0.8480
+	F-Score: 0.8820
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.8905
+	Pre: 0.9268
+	Rec: 0.8480
+	F-Score: 0.8856
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.8650
+	Pre: 0.9656
+	Rec: 0.7570
+	F-Score: 0.8487
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9225
+	Pre: 0.8729
+	Rec: 0.9890
+	F-Score: 0.9273
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9480
+	Pre: 0.9333
+	Rec: 0.9650
+	F-Score: 0.9489
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9530
+	Pre: 0.9594
+	Rec: 0.9460
+	F-Score: 0.9527
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9605
+	Pre: 0.9666
+	Rec: 0.9540
+	F-Score: 0.9602
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9485
+	Pre: 0.9188
+	Rec: 0.9840
+	F-Score: 0.9503
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9545
+	Pre: 0.9383
+	Rec: 0.9730
+	F-Score: 0.9553
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9545
+	Pre: 0.9605
+	Rec: 0.9480
+	F-Score: 0.9542
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9535
+	Pre: 0.9789
+	Rec: 0.9270
+	F-Score: 0.9522
+
+---------------
+[🗃️ ADVERSARIAL DATASET] ddg/BoxBlur
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9345
+	Pre: 0.9281
+	Rec: 0.9420
+	F-Score: 0.9350
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9270
+	Pre: 0.9467
+	Rec: 0.9050
+	F-Score: 0.9254
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9205
+	Pre: 0.9657
+	Rec: 0.8720
+	F-Score: 0.9164
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9330
+	Pre: 0.9501
+	Rec: 0.9140
+	F-Score: 0.9317
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9565
+	Pre: 0.9394
+	Rec: 0.9760
+	F-Score: 0.9573
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9695
+	Pre: 0.9681
+	Rec: 0.9710
+	F-Score: 0.9695
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9615
+	Pre: 0.9782
+	Rec: 0.9440
+	F-Score: 0.9608
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9680
+	Pre: 0.9689
+	Rec: 0.9670
+	F-Score: 0.9680
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9655
+	Pre: 0.9480
+	Rec: 0.9850
+	F-Score: 0.9662
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9680
+	Pre: 0.9615
+	Rec: 0.9750
+	F-Score: 0.9682
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9725
+	Pre: 0.9749
+	Rec: 0.9700
+	F-Score: 0.9724
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9710
+	Pre: 0.9738
+	Rec: 0.9680
+	F-Score: 0.9709
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9190
+	Pre: 0.8761
+	Rec: 0.9760
+	F-Score: 0.9234
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9420
+	Pre: 0.9342
+	Rec: 0.9510
+	F-Score: 0.9425
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9395
+	Pre: 0.9408
+	Rec: 0.9380
+	F-Score: 0.9394
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9395
+	Pre: 0.9198
+	Rec: 0.9630
+	F-Score: 0.9409
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9385
+	Pre: 0.9027
+	Rec: 0.9830
+	F-Score: 0.9411
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9625
+	Pre: 0.9451
+	Rec: 0.9820
+	F-Score: 0.9632
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9650
+	Pre: 0.9764
+	Rec: 0.9530
+	F-Score: 0.9646
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9565
+	Pre: 0.9377
+	Rec: 0.9780
+	F-Score: 0.9574
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9465
+	Pre: 0.9078
+	Rec: 0.9940
+	F-Score: 0.9489
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9640
+	Pre: 0.9436
+	Rec: 0.9870
+	F-Score: 0.9648
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9730
+	Pre: 0.9721
+	Rec: 0.9740
+	F-Score: 0.9730
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9730
+	Pre: 0.9702
+	Rec: 0.9760
+	F-Score: 0.9731
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9275
+	Pre: 0.8926
+	Rec: 0.9720
+	F-Score: 0.9306
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9335
+	Pre: 0.9221
+	Rec: 0.9470
+	F-Score: 0.9344
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9390
+	Pre: 0.9312
+	Rec: 0.9480
+	F-Score: 0.9395
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9345
+	Pre: 0.9411
+	Rec: 0.9270
+	F-Score: 0.9340
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9275
+	Pre: 0.8780
+	Rec: 0.9930
+	F-Score: 0.9320
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9605
+	Pre: 0.9546
+	Rec: 0.9670
+	F-Score: 0.9608
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9610
+	Pre: 0.9511
+	Rec: 0.9720
+	F-Score: 0.9614
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9665
+	Pre: 0.9642
+	Rec: 0.9690
+	F-Score: 0.9666
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9560
+	Pre: 0.9286
+	Rec: 0.9880
+	F-Score: 0.9574
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9640
+	Pre: 0.9453
+	Rec: 0.9850
+	F-Score: 0.9647
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9735
+	Pre: 0.9683
+	Rec: 0.9790
+	F-Score: 0.9736
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9675
+	Pre: 0.9746
+	Rec: 0.9600
+	F-Score: 0.9673
+
+---------------
+[🗃️ ADVERSARIAL DATASET] ddg/GaussianNoise
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9020
+	Pre: 0.8681
+	Rec: 0.9480
+	F-Score: 0.9063
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9020
+	Pre: 0.8980
+	Rec: 0.9070
+	F-Score: 0.9025
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9135
+	Pre: 0.9394
+	Rec: 0.8840
+	F-Score: 0.9109
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9005
+	Pre: 0.8847
+	Rec: 0.9210
+	F-Score: 0.9025
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9030
+	Pre: 0.8624
+	Rec: 0.9590
+	F-Score: 0.9081
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9315
+	Pre: 0.9345
+	Rec: 0.9280
+	F-Score: 0.9313
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9240
+	Pre: 0.9680
+	Rec: 0.8770
+	F-Score: 0.9203
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9360
+	Pre: 0.9495
+	Rec: 0.9210
+	F-Score: 0.9350
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9205
+	Pre: 0.8971
+	Rec: 0.9500
+	F-Score: 0.9228
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9275
+	Pre: 0.9204
+	Rec: 0.9360
+	F-Score: 0.9281
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9345
+	Pre: 0.9637
+	Rec: 0.9030
+	F-Score: 0.9324
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9340
+	Pre: 0.9597
+	Rec: 0.9060
+	F-Score: 0.9321
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8535
+	Pre: 0.7858
+	Rec: 0.9720
+	F-Score: 0.8690
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.8990
+	Pre: 0.8701
+	Rec: 0.9380
+	F-Score: 0.9028
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9120
+	Pre: 0.9162
+	Rec: 0.9070
+	F-Score: 0.9116
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.8985
+	Pre: 0.8821
+	Rec: 0.9200
+	F-Score: 0.9006
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.8985
+	Pre: 0.8474
+	Rec: 0.9720
+	F-Score: 0.9054
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9400
+	Pre: 0.9418
+	Rec: 0.9380
+	F-Score: 0.9399
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9305
+	Pre: 0.9715
+	Rec: 0.8870
+	F-Score: 0.9273
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9370
+	Pre: 0.9450
+	Rec: 0.9280
+	F-Score: 0.9364
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9095
+	Pre: 0.8545
+	Rec: 0.9870
+	F-Score: 0.9160
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9225
+	Pre: 0.8894
+	Rec: 0.9650
+	F-Score: 0.9257
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9330
+	Pre: 0.9473
+	Rec: 0.9170
+	F-Score: 0.9319
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9255
+	Pre: 0.9337
+	Rec: 0.9160
+	F-Score: 0.9248
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8690
+	Pre: 0.8025
+	Rec: 0.9790
+	F-Score: 0.8820
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.8995
+	Pre: 0.8787
+	Rec: 0.9270
+	F-Score: 0.9022
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9125
+	Pre: 0.9137
+	Rec: 0.9110
+	F-Score: 0.9124
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9120
+	Pre: 0.9346
+	Rec: 0.8860
+	F-Score: 0.9097
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.8995
+	Pre: 0.8441
+	Rec: 0.9800
+	F-Score: 0.9070
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9340
+	Pre: 0.9657
+	Rec: 0.9000
+	F-Score: 0.9317
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9420
+	Pre: 0.9682
+	Rec: 0.9140
+	F-Score: 0.9403
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9315
+	Pre: 0.9665
+	Rec: 0.8940
+	F-Score: 0.9288
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9095
+	Pre: 0.8552
+	Rec: 0.9860
+	F-Score: 0.9159
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9260
+	Pre: 0.9034
+	Rec: 0.9540
+	F-Score: 0.9280
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9270
+	Pre: 0.9375
+	Rec: 0.9150
+	F-Score: 0.9261
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9230
+	Pre: 0.9638
+	Rec: 0.8790
+	F-Score: 0.9195
+
+---------------
+[🗃️ ADVERSARIAL DATASET] ddg/GreyScale
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.8770
+	Pre: 0.8228
+	Rec: 0.9610
+	F-Score: 0.8865
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.8945
+	Pre: 0.9210
+	Rec: 0.8630
+	F-Score: 0.8911
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9000
+	Pre: 0.9598
+	Rec: 0.8350
+	F-Score: 0.8930
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.8965
+	Pre: 0.9605
+	Rec: 0.8270
+	F-Score: 0.8888
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9345
+	Pre: 0.9150
+	Rec: 0.9580
+	F-Score: 0.9360
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9430
+	Pre: 0.9386
+	Rec: 0.9480
+	F-Score: 0.9433
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9375
+	Pre: 0.9699
+	Rec: 0.9030
+	F-Score: 0.9353
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9485
+	Pre: 0.9489
+	Rec: 0.9480
+	F-Score: 0.9485
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9480
+	Pre: 0.9211
+	Rec: 0.9800
+	F-Score: 0.9496
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9610
+	Pre: 0.9511
+	Rec: 0.9720
+	F-Score: 0.9614
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9660
+	Pre: 0.9745
+	Rec: 0.9570
+	F-Score: 0.9657
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9665
+	Pre: 0.9642
+	Rec: 0.9690
+	F-Score: 0.9666
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8965
+	Pre: 0.8588
+	Rec: 0.9490
+	F-Score: 0.9017
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9085
+	Pre: 0.8793
+	Rec: 0.9470
+	F-Score: 0.9119
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9120
+	Pre: 0.9537
+	Rec: 0.8660
+	F-Score: 0.9078
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9090
+	Pre: 0.9034
+	Rec: 0.9160
+	F-Score: 0.9096
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9410
+	Pre: 0.9401
+	Rec: 0.9420
+	F-Score: 0.9411
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9540
+	Pre: 0.9652
+	Rec: 0.9420
+	F-Score: 0.9534
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9405
+	Pre: 0.9793
+	Rec: 0.9000
+	F-Score: 0.9380
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9545
+	Pre: 0.9531
+	Rec: 0.9560
+	F-Score: 0.9546
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9605
+	Pre: 0.9382
+	Rec: 0.9860
+	F-Score: 0.9615
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9690
+	Pre: 0.9616
+	Rec: 0.9770
+	F-Score: 0.9692
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9705
+	Pre: 0.9748
+	Rec: 0.9660
+	F-Score: 0.9704
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9740
+	Pre: 0.9807
+	Rec: 0.9670
+	F-Score: 0.9738
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8835
+	Pre: 0.8315
+	Rec: 0.9620
+	F-Score: 0.8920
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.8930
+	Pre: 0.8423
+	Rec: 0.9670
+	F-Score: 0.9004
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9015
+	Pre: 0.8640
+	Rec: 0.9530
+	F-Score: 0.9063
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9045
+	Pre: 0.8977
+	Rec: 0.9130
+	F-Score: 0.9053
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.8450
+	Pre: 0.7646
+	Rec: 0.9970
+	F-Score: 0.8655
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9360
+	Pre: 0.9015
+	Rec: 0.9790
+	F-Score: 0.9386
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9455
+	Pre: 0.9247
+	Rec: 0.9700
+	F-Score: 0.9468
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9505
+	Pre: 0.9438
+	Rec: 0.9580
+	F-Score: 0.9509
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9470
+	Pre: 0.9116
+	Rec: 0.9900
+	F-Score: 0.9492
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9535
+	Pre: 0.9290
+	Rec: 0.9820
+	F-Score: 0.9548
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9660
+	Pre: 0.9533
+	Rec: 0.9800
+	F-Score: 0.9665
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9710
+	Pre: 0.9748
+	Rec: 0.9670
+	F-Score: 0.9709
+
+---------------
+[🗃️ ADVERSARIAL DATASET] ddg/InvertColor
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.7515
+	Pre: 0.8863
+	Rec: 0.5770
+	F-Score: 0.6990
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.7185
+	Pre: 0.9054
+	Rec: 0.4880
+	F-Score: 0.6342
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.7025
+	Pre: 0.9281
+	Rec: 0.4390
+	F-Score: 0.5961
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.6940
+	Pre: 0.9145
+	Rec: 0.4280
+	F-Score: 0.5831
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.8060
+	Pre: 0.8600
+	Rec: 0.7310
+	F-Score: 0.7903
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.7745
+	Pre: 0.9406
+	Rec: 0.5860
+	F-Score: 0.7221
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.6980
+	Pre: 0.9439
+	Rec: 0.4210
+	F-Score: 0.5823
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.7545
+	Pre: 0.9602
+	Rec: 0.5310
+	F-Score: 0.6838
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.7840
+	Pre: 0.8777
+	Rec: 0.6600
+	F-Score: 0.7534
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.7650
+	Pre: 0.9359
+	Rec: 0.5690
+	F-Score: 0.7077
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.7005
+	Pre: 0.9609
+	Rec: 0.4180
+	F-Score: 0.5826
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.7185
+	Pre: 0.9600
+	Rec: 0.4560
+	F-Score: 0.6183
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8020
+	Pre: 0.8495
+	Rec: 0.7340
+	F-Score: 0.7876
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.7725
+	Pre: 0.8932
+	Rec: 0.6190
+	F-Score: 0.7312
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.7330
+	Pre: 0.9191
+	Rec: 0.5110
+	F-Score: 0.6568
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.7545
+	Pre: 0.8862
+	Rec: 0.5840
+	F-Score: 0.7040
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.7895
+	Pre: 0.8660
+	Rec: 0.6850
+	F-Score: 0.7649
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.7960
+	Pre: 0.9471
+	Rec: 0.6270
+	F-Score: 0.7545
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.7315
+	Pre: 0.9696
+	Rec: 0.4780
+	F-Score: 0.6403
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.8060
+	Pre: 0.9474
+	Rec: 0.6480
+	F-Score: 0.7696
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.8270
+	Pre: 0.8829
+	Rec: 0.7540
+	F-Score: 0.8134
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.7920
+	Pre: 0.9320
+	Rec: 0.6300
+	F-Score: 0.7518
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.7070
+	Pre: 0.9683
+	Rec: 0.4280
+	F-Score: 0.5936
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.7280
+	Pre: 0.9672
+	Rec: 0.4720
+	F-Score: 0.6344
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.7935
+	Pre: 0.8637
+	Rec: 0.6970
+	F-Score: 0.7714
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.7840
+	Pre: 0.9080
+	Rec: 0.6320
+	F-Score: 0.7453
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.7720
+	Pre: 0.8988
+	Rec: 0.6130
+	F-Score: 0.7289
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.7435
+	Pre: 0.9340
+	Rec: 0.5240
+	F-Score: 0.6714
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.8410
+	Pre: 0.8254
+	Rec: 0.8650
+	F-Score: 0.8447
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.8180
+	Pre: 0.9492
+	Rec: 0.6720
+	F-Score: 0.7869
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.7970
+	Pre: 0.9433
+	Rec: 0.6320
+	F-Score: 0.7569
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.7630
+	Pre: 0.9428
+	Rec: 0.5600
+	F-Score: 0.7026
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.8395
+	Pre: 0.8735
+	Rec: 0.7940
+	F-Score: 0.8318
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.8220
+	Pre: 0.9340
+	Rec: 0.6930
+	F-Score: 0.7956
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.7485
+	Pre: 0.9461
+	Rec: 0.5270
+	F-Score: 0.6769
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.6990
+	Pre: 0.9784
+	Rec: 0.4070
+	F-Score: 0.5749
+
+---------------
+[🗃️ ADVERSARIAL DATASET] ddg/RandomBlackBox
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9215
+	Pre: 0.8958
+	Rec: 0.9540
+	F-Score: 0.9240
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9160
+	Pre: 0.9407
+	Rec: 0.8880
+	F-Score: 0.9136
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9045
+	Pre: 0.9550
+	Rec: 0.8490
+	F-Score: 0.8989
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9180
+	Pre: 0.9504
+	Rec: 0.8820
+	F-Score: 0.9149
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9415
+	Pre: 0.9084
+	Rec: 0.9820
+	F-Score: 0.9438
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9545
+	Pre: 0.9633
+	Rec: 0.9450
+	F-Score: 0.9541
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9485
+	Pre: 0.9746
+	Rec: 0.9210
+	F-Score: 0.9470
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9550
+	Pre: 0.9615
+	Rec: 0.9480
+	F-Score: 0.9547
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9650
+	Pre: 0.9586
+	Rec: 0.9720
+	F-Score: 0.9652
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9675
+	Pre: 0.9661
+	Rec: 0.9690
+	F-Score: 0.9675
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9675
+	Pre: 0.9785
+	Rec: 0.9560
+	F-Score: 0.9671
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9680
+	Pre: 0.9785
+	Rec: 0.9570
+	F-Score: 0.9676
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9160
+	Pre: 0.8796
+	Rec: 0.9640
+	F-Score: 0.9198
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9265
+	Pre: 0.9304
+	Rec: 0.9220
+	F-Score: 0.9262
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9235
+	Pre: 0.9501
+	Rec: 0.8940
+	F-Score: 0.9212
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9245
+	Pre: 0.9141
+	Rec: 0.9370
+	F-Score: 0.9254
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9355
+	Pre: 0.9059
+	Rec: 0.9720
+	F-Score: 0.9378
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9550
+	Pre: 0.9559
+	Rec: 0.9540
+	F-Score: 0.9550
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9450
+	Pre: 0.9816
+	Rec: 0.9070
+	F-Score: 0.9428
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9560
+	Pre: 0.9569
+	Rec: 0.9550
+	F-Score: 0.9560
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9605
+	Pre: 0.9348
+	Rec: 0.9900
+	F-Score: 0.9616
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9665
+	Pre: 0.9633
+	Rec: 0.9700
+	F-Score: 0.9666
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9710
+	Pre: 0.9816
+	Rec: 0.9600
+	F-Score: 0.9707
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9755
+	Pre: 0.9808
+	Rec: 0.9700
+	F-Score: 0.9754
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9230
+	Pre: 0.9083
+	Rec: 0.9410
+	F-Score: 0.9244
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9265
+	Pre: 0.9235
+	Rec: 0.9300
+	F-Score: 0.9268
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9230
+	Pre: 0.9290
+	Rec: 0.9160
+	F-Score: 0.9225
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9260
+	Pre: 0.9475
+	Rec: 0.9020
+	F-Score: 0.9242
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9210
+	Pre: 0.8739
+	Rec: 0.9840
+	F-Score: 0.9257
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9505
+	Pre: 0.9555
+	Rec: 0.9450
+	F-Score: 0.9502
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9575
+	Pre: 0.9635
+	Rec: 0.9510
+	F-Score: 0.9572
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9575
+	Pre: 0.9712
+	Rec: 0.9430
+	F-Score: 0.9569
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9670
+	Pre: 0.9516
+	Rec: 0.9840
+	F-Score: 0.9676
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9650
+	Pre: 0.9568
+	Rec: 0.9740
+	F-Score: 0.9653
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9710
+	Pre: 0.9777
+	Rec: 0.9640
+	F-Score: 0.9708
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9650
+	Pre: 0.9834
+	Rec: 0.9460
+	F-Score: 0.9643
+
+---------------
+[🗃️ ADVERSARIAL DATASET] ddg/SaltPepper
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.6900
+	Pre: 0.6307
+	Rec: 0.9170
+	F-Score: 0.7474
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.6485
+	Pre: 0.5935
+	Rec: 0.9430
+	F-Score: 0.7285
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.6925
+	Pre: 0.6334
+	Rec: 0.9140
+	F-Score: 0.7483
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.7530
+	Pre: 0.8227
+	Rec: 0.6450
+	F-Score: 0.7231
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.7405
+	Pre: 0.7176
+	Rec: 0.7930
+	F-Score: 0.7534
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.7135
+	Pre: 0.6494
+	Rec: 0.9280
+	F-Score: 0.7641
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.6995
+	Pre: 0.8122
+	Rec: 0.5190
+	F-Score: 0.6333
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.6890
+	Pre: 0.6324
+	Rec: 0.9030
+	F-Score: 0.7438
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.7280
+	Pre: 0.7032
+	Rec: 0.7890
+	F-Score: 0.7436
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.7425
+	Pre: 0.7325
+	Rec: 0.7640
+	F-Score: 0.7479
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.7065
+	Pre: 0.9122
+	Rec: 0.4570
+	F-Score: 0.6089
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.7340
+	Pre: 0.8567
+	Rec: 0.5620
+	F-Score: 0.6787
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.7000
+	Pre: 0.6433
+	Rec: 0.8980
+	F-Score: 0.7496
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.7175
+	Pre: 0.6586
+	Rec: 0.9030
+	F-Score: 0.7617
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.6925
+	Pre: 0.8625
+	Rec: 0.4580
+	F-Score: 0.5983
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.7465
+	Pre: 0.7883
+	Rec: 0.6740
+	F-Score: 0.7267
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.6640
+	Pre: 0.6614
+	Rec: 0.6720
+	F-Score: 0.6667
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.7505
+	Pre: 0.8224
+	Rec: 0.6390
+	F-Score: 0.7192
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.7040
+	Pre: 0.8723
+	Rec: 0.4780
+	F-Score: 0.6176
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.7435
+	Pre: 0.7667
+	Rec: 0.7000
+	F-Score: 0.7318
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.7490
+	Pre: 0.7260
+	Rec: 0.8000
+	F-Score: 0.7612
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.7355
+	Pre: 0.7108
+	Rec: 0.7940
+	F-Score: 0.7501
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.7105
+	Pre: 0.9040
+	Rec: 0.4710
+	F-Score: 0.6193
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.6695
+	Pre: 0.9544
+	Rec: 0.3560
+	F-Score: 0.5186
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.5480
+	Pre: 0.5253
+	Rec: 0.9980
+	F-Score: 0.6883
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.6625
+	Pre: 0.6068
+	Rec: 0.9230
+	F-Score: 0.7322
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.6965
+	Pre: 0.6479
+	Rec: 0.8610
+	F-Score: 0.7394
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.7140
+	Pre: 0.6826
+	Rec: 0.8000
+	F-Score: 0.7366
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.5560
+	Pre: 0.5297
+	Rec: 0.9990
+	F-Score: 0.6923
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.6925
+	Pre: 0.6362
+	Rec: 0.8990
+	F-Score: 0.7451
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.6995
+	Pre: 0.6375
+	Rec: 0.9250
+	F-Score: 0.7548
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.6970
+	Pre: 0.6740
+	Rec: 0.7630
+	F-Score: 0.7158
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.6535
+	Pre: 0.5935
+	Rec: 0.9740
+	F-Score: 0.7376
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.7065
+	Pre: 0.6568
+	Rec: 0.8650
+	F-Score: 0.7467
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.7330
+	Pre: 0.7848
+	Rec: 0.6420
+	F-Score: 0.7063
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.6925
+	Pre: 0.8782
+	Rec: 0.4470
+	F-Score: 0.5924
+
+---------------
+[🗃️ ADVERSARIAL DATASET] ddg/Sharpen
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9245
+	Pre: 0.8794
+	Rec: 0.9840
+	F-Score: 0.9287
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9360
+	Pre: 0.9325
+	Rec: 0.9400
+	F-Score: 0.9363
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9355
+	Pre: 0.9513
+	Rec: 0.9180
+	F-Score: 0.9344
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9475
+	Pre: 0.9497
+	Rec: 0.9450
+	F-Score: 0.9474
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9420
+	Pre: 0.9018
+	Rec: 0.9920
+	F-Score: 0.9448
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9725
+	Pre: 0.9637
+	Rec: 0.9820
+	F-Score: 0.9728
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9715
+	Pre: 0.9748
+	Rec: 0.9680
+	F-Score: 0.9714
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9685
+	Pre: 0.9562
+	Rec: 0.9820
+	F-Score: 0.9689
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9725
+	Pre: 0.9619
+	Rec: 0.9840
+	F-Score: 0.9728
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9755
+	Pre: 0.9676
+	Rec: 0.9840
+	F-Score: 0.9757
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9795
+	Pre: 0.9819
+	Rec: 0.9770
+	F-Score: 0.9794
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9805
+	Pre: 0.9819
+	Rec: 0.9790
+	F-Score: 0.9805
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9420
+	Pre: 0.9108
+	Rec: 0.9800
+	F-Score: 0.9441
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9415
+	Pre: 0.9282
+	Rec: 0.9570
+	F-Score: 0.9424
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9490
+	Pre: 0.9535
+	Rec: 0.9440
+	F-Score: 0.9487
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9490
+	Pre: 0.9402
+	Rec: 0.9590
+	F-Score: 0.9495
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9520
+	Pre: 0.9216
+	Rec: 0.9880
+	F-Score: 0.9537
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9655
+	Pre: 0.9604
+	Rec: 0.9710
+	F-Score: 0.9657
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9680
+	Pre: 0.9766
+	Rec: 0.9590
+	F-Score: 0.9677
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9695
+	Pre: 0.9572
+	Rec: 0.9830
+	F-Score: 0.9699
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9695
+	Pre: 0.9484
+	Rec: 0.9930
+	F-Score: 0.9702
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9745
+	Pre: 0.9638
+	Rec: 0.9860
+	F-Score: 0.9748
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9810
+	Pre: 0.9820
+	Rec: 0.9800
+	F-Score: 0.9810
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9805
+	Pre: 0.9829
+	Rec: 0.9780
+	F-Score: 0.9805
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9390
+	Pre: 0.9072
+	Rec: 0.9780
+	F-Score: 0.9413
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9485
+	Pre: 0.9498
+	Rec: 0.9470
+	F-Score: 0.9484
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9425
+	Pre: 0.9456
+	Rec: 0.9390
+	F-Score: 0.9423
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9450
+	Pre: 0.9588
+	Rec: 0.9300
+	F-Score: 0.9442
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9410
+	Pre: 0.9002
+	Rec: 0.9920
+	F-Score: 0.9439
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9680
+	Pre: 0.9699
+	Rec: 0.9660
+	F-Score: 0.9679
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9710
+	Pre: 0.9748
+	Rec: 0.9670
+	F-Score: 0.9709
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9690
+	Pre: 0.9737
+	Rec: 0.9640
+	F-Score: 0.9688
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9780
+	Pre: 0.9659
+	Rec: 0.9910
+	F-Score: 0.9783
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9770
+	Pre: 0.9704
+	Rec: 0.9840
+	F-Score: 0.9772
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9795
+	Pre: 0.9781
+	Rec: 0.9810
+	F-Score: 0.9795
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9795
+	Pre: 0.9858
+	Rec: 0.9730
+	F-Score: 0.9794
+
+---------------
+[🗃️ ADVERSARIAL DATASET] ddg/SplitMergeRGB
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.8635
+	Pre: 0.9232
+	Rec: 0.7930
+	F-Score: 0.8531
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.8710
+	Pre: 0.9314
+	Rec: 0.8010
+	F-Score: 0.8613
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.8445
+	Pre: 0.9624
+	Rec: 0.7170
+	F-Score: 0.8218
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.8465
+	Pre: 0.9553
+	Rec: 0.7270
+	F-Score: 0.8257
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9240
+	Pre: 0.8977
+	Rec: 0.9570
+	F-Score: 0.9264
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9480
+	Pre: 0.9401
+	Rec: 0.9570
+	F-Score: 0.9485
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9080
+	Pre: 0.9916
+	Rec: 0.8230
+	F-Score: 0.8995
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9505
+	Pre: 0.9583
+	Rec: 0.9420
+	F-Score: 0.9501
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9575
+	Pre: 0.9429
+	Rec: 0.9740
+	F-Score: 0.9582
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9585
+	Pre: 0.9732
+	Rec: 0.9430
+	F-Score: 0.9578
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9575
+	Pre: 0.9862
+	Rec: 0.9280
+	F-Score: 0.9562
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9540
+	Pre: 0.9840
+	Rec: 0.9230
+	F-Score: 0.9525
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8855
+	Pre: 0.8710
+	Rec: 0.9050
+	F-Score: 0.8877
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.8810
+	Pre: 0.9430
+	Rec: 0.8110
+	F-Score: 0.8720
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.8900
+	Pre: 0.9422
+	Rec: 0.8310
+	F-Score: 0.8831
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.8755
+	Pre: 0.9196
+	Rec: 0.8230
+	F-Score: 0.8686
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9180
+	Pre: 0.8712
+	Rec: 0.9810
+	F-Score: 0.9229
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9495
+	Pre: 0.9536
+	Rec: 0.9450
+	F-Score: 0.9493
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9360
+	Pre: 0.9609
+	Rec: 0.9090
+	F-Score: 0.9342
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9445
+	Pre: 0.9295
+	Rec: 0.9620
+	F-Score: 0.9455
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9525
+	Pre: 0.9297
+	Rec: 0.9790
+	F-Score: 0.9537
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9650
+	Pre: 0.9650
+	Rec: 0.9650
+	F-Score: 0.9650
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9650
+	Pre: 0.9834
+	Rec: 0.9460
+	F-Score: 0.9643
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9610
+	Pre: 0.9853
+	Rec: 0.9360
+	F-Score: 0.9600
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8895
+	Pre: 0.9122
+	Rec: 0.8620
+	F-Score: 0.8864
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.8875
+	Pre: 0.9398
+	Rec: 0.8280
+	F-Score: 0.8804
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.8830
+	Pre: 0.9333
+	Rec: 0.8250
+	F-Score: 0.8758
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.8490
+	Pre: 0.9629
+	Rec: 0.7260
+	F-Score: 0.8278
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9270
+	Pre: 0.8819
+	Rec: 0.9860
+	F-Score: 0.9311
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9470
+	Pre: 0.9470
+	Rec: 0.9470
+	F-Score: 0.9470
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9455
+	Pre: 0.9685
+	Rec: 0.9210
+	F-Score: 0.9441
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9455
+	Pre: 0.9694
+	Rec: 0.9200
+	F-Score: 0.9441
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9565
+	Pre: 0.9327
+	Rec: 0.9840
+	F-Score: 0.9577
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9585
+	Pre: 0.9464
+	Rec: 0.9720
+	F-Score: 0.9591
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9685
+	Pre: 0.9835
+	Rec: 0.9530
+	F-Score: 0.9680
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9500
+	Pre: 0.9913
+	Rec: 0.9080
+	F-Score: 0.9478
+
+---------------
+[🗃️ ADVERSARIAL DATASET] google/BoxBlur
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9315
+	Pre: 0.9311
+	Rec: 0.9320
+	F-Score: 0.9315
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9335
+	Pre: 0.9568
+	Rec: 0.9080
+	F-Score: 0.9318
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9235
+	Pre: 0.9700
+	Rec: 0.8740
+	F-Score: 0.9195
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9330
+	Pre: 0.9473
+	Rec: 0.9170
+	F-Score: 0.9319
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9540
+	Pre: 0.9399
+	Rec: 0.9700
+	F-Score: 0.9547
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9665
+	Pre: 0.9633
+	Rec: 0.9700
+	F-Score: 0.9666
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9590
+	Pre: 0.9761
+	Rec: 0.9410
+	F-Score: 0.9582
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9670
+	Pre: 0.9596
+	Rec: 0.9750
+	F-Score: 0.9673
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9605
+	Pre: 0.9382
+	Rec: 0.9860
+	F-Score: 0.9615
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9665
+	Pre: 0.9499
+	Rec: 0.9850
+	F-Score: 0.9671
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9715
+	Pre: 0.9654
+	Rec: 0.9780
+	F-Score: 0.9717
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9740
+	Pre: 0.9684
+	Rec: 0.9800
+	F-Score: 0.9742
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9190
+	Pre: 0.8788
+	Rec: 0.9720
+	F-Score: 0.9231
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9360
+	Pre: 0.9160
+	Rec: 0.9600
+	F-Score: 0.9375
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9360
+	Pre: 0.9275
+	Rec: 0.9460
+	F-Score: 0.9366
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9320
+	Pre: 0.9068
+	Rec: 0.9630
+	F-Score: 0.9340
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9425
+	Pre: 0.9116
+	Rec: 0.9800
+	F-Score: 0.9446
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9585
+	Pre: 0.9404
+	Rec: 0.9790
+	F-Score: 0.9593
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9680
+	Pre: 0.9737
+	Rec: 0.9620
+	F-Score: 0.9678
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9570
+	Pre: 0.9369
+	Rec: 0.9800
+	F-Score: 0.9580
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9405
+	Pre: 0.8972
+	Rec: 0.9950
+	F-Score: 0.9436
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9600
+	Pre: 0.9348
+	Rec: 0.9890
+	F-Score: 0.9611
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9725
+	Pre: 0.9655
+	Rec: 0.9800
+	F-Score: 0.9727
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9745
+	Pre: 0.9657
+	Rec: 0.9840
+	F-Score: 0.9747
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9240
+	Pre: 0.8883
+	Rec: 0.9700
+	F-Score: 0.9273
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9355
+	Pre: 0.9120
+	Rec: 0.9640
+	F-Score: 0.9373
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9415
+	Pre: 0.9257
+	Rec: 0.9600
+	F-Score: 0.9426
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9420
+	Pre: 0.9411
+	Rec: 0.9430
+	F-Score: 0.9421
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9320
+	Pre: 0.8830
+	Rec: 0.9960
+	F-Score: 0.9361
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9615
+	Pre: 0.9450
+	Rec: 0.9800
+	F-Score: 0.9622
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9630
+	Pre: 0.9486
+	Rec: 0.9790
+	F-Score: 0.9636
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9715
+	Pre: 0.9682
+	Rec: 0.9750
+	F-Score: 0.9716
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9520
+	Pre: 0.9170
+	Rec: 0.9940
+	F-Score: 0.9539
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9575
+	Pre: 0.9304
+	Rec: 0.9890
+	F-Score: 0.9588
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9765
+	Pre: 0.9695
+	Rec: 0.9840
+	F-Score: 0.9767
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9785
+	Pre: 0.9790
+	Rec: 0.9780
+	F-Score: 0.9785
+
+---------------
+[🗃️ ADVERSARIAL DATASET] google/GaussianNoise
+	[🧮 # ELEMENTS] cat: 1010
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9085
+	Pre: 0.8757
+	Rec: 0.9510
+	F-Score: 0.9118
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9184
+	Pre: 0.9214
+	Rec: 0.9140
+	F-Score: 0.9177
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9229
+	Pre: 0.9424
+	Rec: 0.9000
+	F-Score: 0.9207
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9109
+	Pre: 0.8997
+	Rec: 0.9240
+	F-Score: 0.9117
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9194
+	Pre: 0.8858
+	Rec: 0.9620
+	F-Score: 0.9223
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9473
+	Pre: 0.9543
+	Rec: 0.9390
+	F-Score: 0.9466
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9224
+	Pre: 0.9689
+	Rec: 0.8720
+	F-Score: 0.9179
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9463
+	Pre: 0.9523
+	Rec: 0.9390
+	F-Score: 0.9456
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9378
+	Pre: 0.9171
+	Rec: 0.9620
+	F-Score: 0.9390
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9433
+	Pre: 0.9301
+	Rec: 0.9580
+	F-Score: 0.9438
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9502
+	Pre: 0.9582
+	Rec: 0.9410
+	F-Score: 0.9495
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9557
+	Pre: 0.9624
+	Rec: 0.9480
+	F-Score: 0.9552
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8622
+	Pre: 0.7927
+	Rec: 0.9790
+	F-Score: 0.8761
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9209
+	Pre: 0.8934
+	Rec: 0.9550
+	F-Score: 0.9232
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9149
+	Pre: 0.9092
+	Rec: 0.9210
+	F-Score: 0.9151
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9090
+	Pre: 0.8939
+	Rec: 0.9270
+	F-Score: 0.9102
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9129
+	Pre: 0.8634
+	Rec: 0.9800
+	F-Score: 0.9180
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9458
+	Pre: 0.9398
+	Rec: 0.9520
+	F-Score: 0.9459
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9353
+	Pre: 0.9749
+	Rec: 0.8930
+	F-Score: 0.9322
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9423
+	Pre: 0.9585
+	Rec: 0.9240
+	F-Score: 0.9409
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9124
+	Pre: 0.8601
+	Rec: 0.9840
+	F-Score: 0.9179
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9398
+	Pre: 0.9096
+	Rec: 0.9760
+	F-Score: 0.9416
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9443
+	Pre: 0.9587
+	Rec: 0.9280
+	F-Score: 0.9431
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9423
+	Pre: 0.9474
+	Rec: 0.9360
+	F-Score: 0.9416
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8751
+	Pre: 0.8098
+	Rec: 0.9790
+	F-Score: 0.8864
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9184
+	Pre: 0.8821
+	Rec: 0.9650
+	F-Score: 0.9217
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9249
+	Pre: 0.9174
+	Rec: 0.9330
+	F-Score: 0.9251
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9294
+	Pre: 0.9487
+	Rec: 0.9070
+	F-Score: 0.9274
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9229
+	Pre: 0.8762
+	Rec: 0.9840
+	F-Score: 0.9270
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9388
+	Pre: 0.9592
+	Rec: 0.9160
+	F-Score: 0.9371
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9453
+	Pre: 0.9616
+	Rec: 0.9270
+	F-Score: 0.9440
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9473
+	Pre: 0.9765
+	Rec: 0.9160
+	F-Score: 0.9453
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9219
+	Pre: 0.8727
+	Rec: 0.9870
+	F-Score: 0.9263
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9373
+	Pre: 0.9099
+	Rec: 0.9700
+	F-Score: 0.9390
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9463
+	Pre: 0.9487
+	Rec: 0.9430
+	F-Score: 0.9458
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9383
+	Pre: 0.9611
+	Rec: 0.9130
+	F-Score: 0.9364
+
+---------------
+[🗃️ ADVERSARIAL DATASET] google/GreyScale
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.8860
+	Pre: 0.8422
+	Rec: 0.9500
+	F-Score: 0.8929
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.8980
+	Pre: 0.9364
+	Rec: 0.8540
+	F-Score: 0.8933
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.8880
+	Pre: 0.9460
+	Rec: 0.8230
+	F-Score: 0.8802
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.8995
+	Pre: 0.9535
+	Rec: 0.8400
+	F-Score: 0.8931
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9340
+	Pre: 0.9141
+	Rec: 0.9580
+	F-Score: 0.9355
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9480
+	Pre: 0.9384
+	Rec: 0.9590
+	F-Score: 0.9486
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9380
+	Pre: 0.9630
+	Rec: 0.9110
+	F-Score: 0.9363
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9470
+	Pre: 0.9357
+	Rec: 0.9600
+	F-Score: 0.9477
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9500
+	Pre: 0.9229
+	Rec: 0.9820
+	F-Score: 0.9516
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9585
+	Pre: 0.9464
+	Rec: 0.9720
+	F-Score: 0.9591
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9630
+	Pre: 0.9686
+	Rec: 0.9570
+	F-Score: 0.9628
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9650
+	Pre: 0.9631
+	Rec: 0.9670
+	F-Score: 0.9651
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9015
+	Pre: 0.8647
+	Rec: 0.9520
+	F-Score: 0.9062
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9090
+	Pre: 0.8903
+	Rec: 0.9330
+	F-Score: 0.9111
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9120
+	Pre: 0.9430
+	Rec: 0.8770
+	F-Score: 0.9088
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9165
+	Pre: 0.9112
+	Rec: 0.9230
+	F-Score: 0.9170
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9400
+	Pre: 0.9453
+	Rec: 0.9340
+	F-Score: 0.9396
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9590
+	Pre: 0.9627
+	Rec: 0.9550
+	F-Score: 0.9588
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9475
+	Pre: 0.9807
+	Rec: 0.9130
+	F-Score: 0.9456
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9525
+	Pre: 0.9432
+	Rec: 0.9630
+	F-Score: 0.9530
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9505
+	Pre: 0.9230
+	Rec: 0.9830
+	F-Score: 0.9521
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9625
+	Pre: 0.9512
+	Rec: 0.9750
+	F-Score: 0.9630
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9630
+	Pre: 0.9724
+	Rec: 0.9530
+	F-Score: 0.9626
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9605
+	Pre: 0.9694
+	Rec: 0.9510
+	F-Score: 0.9601
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8890
+	Pre: 0.8418
+	Rec: 0.9580
+	F-Score: 0.8962
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.8935
+	Pre: 0.8467
+	Rec: 0.9610
+	F-Score: 0.9002
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9160
+	Pre: 0.8824
+	Rec: 0.9600
+	F-Score: 0.9195
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9215
+	Pre: 0.9236
+	Rec: 0.9190
+	F-Score: 0.9213
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.8575
+	Pre: 0.7791
+	Rec: 0.9980
+	F-Score: 0.8751
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9375
+	Pre: 0.9017
+	Rec: 0.9820
+	F-Score: 0.9402
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9495
+	Pre: 0.9261
+	Rec: 0.9770
+	F-Score: 0.9509
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9560
+	Pre: 0.9436
+	Rec: 0.9700
+	F-Score: 0.9566
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9455
+	Pre: 0.9083
+	Rec: 0.9910
+	F-Score: 0.9479
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9555
+	Pre: 0.9293
+	Rec: 0.9860
+	F-Score: 0.9568
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9610
+	Pre: 0.9493
+	Rec: 0.9740
+	F-Score: 0.9615
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9665
+	Pre: 0.9726
+	Rec: 0.9600
+	F-Score: 0.9663
+
+---------------
+[🗃️ ADVERSARIAL DATASET] google/InvertColor
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.7395
+	Pre: 0.8668
+	Rec: 0.5660
+	F-Score: 0.6848
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.6905
+	Pre: 0.8833
+	Rec: 0.4390
+	F-Score: 0.5865
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.7220
+	Pre: 0.9286
+	Rec: 0.4810
+	F-Score: 0.6337
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.7155
+	Pre: 0.9058
+	Rec: 0.4810
+	F-Score: 0.6283
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.8005
+	Pre: 0.8696
+	Rec: 0.7070
+	F-Score: 0.7799
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.7705
+	Pre: 0.9287
+	Rec: 0.5860
+	F-Score: 0.7186
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.6850
+	Pre: 0.9405
+	Rec: 0.3950
+	F-Score: 0.5563
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.7570
+	Pre: 0.9298
+	Rec: 0.5560
+	F-Score: 0.6959
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.7890
+	Pre: 0.8874
+	Rec: 0.6620
+	F-Score: 0.7583
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.7900
+	Pre: 0.9341
+	Rec: 0.6240
+	F-Score: 0.7482
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.7265
+	Pre: 0.9651
+	Rec: 0.4700
+	F-Score: 0.6321
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.7430
+	Pre: 0.9585
+	Rec: 0.5080
+	F-Score: 0.6641
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8060
+	Pre: 0.8608
+	Rec: 0.7300
+	F-Score: 0.7900
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.7660
+	Pre: 0.8900
+	Rec: 0.6070
+	F-Score: 0.7218
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.7415
+	Pre: 0.9073
+	Rec: 0.5380
+	F-Score: 0.6755
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.7640
+	Pre: 0.8860
+	Rec: 0.6060
+	F-Score: 0.7197
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.7920
+	Pre: 0.8570
+	Rec: 0.7010
+	F-Score: 0.7712
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.8160
+	Pre: 0.9282
+	Rec: 0.6850
+	F-Score: 0.7883
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.7430
+	Pre: 0.9709
+	Rec: 0.5010
+	F-Score: 0.6609
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.8125
+	Pre: 0.9310
+	Rec: 0.6750
+	F-Score: 0.7826
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.8565
+	Pre: 0.8913
+	Rec: 0.8120
+	F-Score: 0.8498
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.8175
+	Pre: 0.9216
+	Rec: 0.6940
+	F-Score: 0.7918
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.7320
+	Pre: 0.9774
+	Rec: 0.4750
+	F-Score: 0.6393
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.7575
+	Pre: 0.9673
+	Rec: 0.5330
+	F-Score: 0.6873
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8020
+	Pre: 0.8665
+	Rec: 0.7140
+	F-Score: 0.7829
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.7900
+	Pre: 0.8737
+	Rec: 0.6780
+	F-Score: 0.7635
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.7955
+	Pre: 0.9053
+	Rec: 0.6600
+	F-Score: 0.7634
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.7495
+	Pre: 0.9236
+	Rec: 0.5440
+	F-Score: 0.6847
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.8465
+	Pre: 0.8278
+	Rec: 0.8750
+	F-Score: 0.8508
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.8205
+	Pre: 0.9349
+	Rec: 0.6890
+	F-Score: 0.7933
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.8210
+	Pre: 0.9373
+	Rec: 0.6880
+	F-Score: 0.7935
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.7835
+	Pre: 0.9507
+	Rec: 0.5980
+	F-Score: 0.7342
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.8570
+	Pre: 0.8650
+	Rec: 0.8460
+	F-Score: 0.8554
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.8450
+	Pre: 0.9218
+	Rec: 0.7540
+	F-Score: 0.8295
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.7985
+	Pre: 0.9543
+	Rec: 0.6270
+	F-Score: 0.7568
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.7405
+	Pre: 0.9898
+	Rec: 0.4860
+	F-Score: 0.6519
+
+---------------
+[🗃️ ADVERSARIAL DATASET] google/RandomBlackBox
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9150
+	Pre: 0.8893
+	Rec: 0.9480
+	F-Score: 0.9177
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9175
+	Pre: 0.9456
+	Rec: 0.8860
+	F-Score: 0.9148
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9005
+	Pre: 0.9515
+	Rec: 0.8440
+	F-Score: 0.8945
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9235
+	Pre: 0.9463
+	Rec: 0.8980
+	F-Score: 0.9215
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9360
+	Pre: 0.8949
+	Rec: 0.9880
+	F-Score: 0.9392
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9575
+	Pre: 0.9580
+	Rec: 0.9570
+	F-Score: 0.9575
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9515
+	Pre: 0.9728
+	Rec: 0.9290
+	F-Score: 0.9504
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9600
+	Pre: 0.9582
+	Rec: 0.9620
+	F-Score: 0.9601
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9575
+	Pre: 0.9395
+	Rec: 0.9780
+	F-Score: 0.9584
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9590
+	Pre: 0.9474
+	Rec: 0.9720
+	F-Score: 0.9595
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9620
+	Pre: 0.9639
+	Rec: 0.9600
+	F-Score: 0.9619
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9690
+	Pre: 0.9718
+	Rec: 0.9660
+	F-Score: 0.9689
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9085
+	Pre: 0.8670
+	Rec: 0.9650
+	F-Score: 0.9134
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9285
+	Pre: 0.9247
+	Rec: 0.9330
+	F-Score: 0.9288
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9175
+	Pre: 0.9381
+	Rec: 0.8940
+	F-Score: 0.9155
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9205
+	Pre: 0.9032
+	Rec: 0.9420
+	F-Score: 0.9222
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9420
+	Pre: 0.9123
+	Rec: 0.9780
+	F-Score: 0.9440
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9605
+	Pre: 0.9573
+	Rec: 0.9640
+	F-Score: 0.9606
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9520
+	Pre: 0.9839
+	Rec: 0.9190
+	F-Score: 0.9504
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9630
+	Pre: 0.9612
+	Rec: 0.9650
+	F-Score: 0.9631
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9470
+	Pre: 0.9139
+	Rec: 0.9870
+	F-Score: 0.9490
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9630
+	Pre: 0.9513
+	Rec: 0.9760
+	F-Score: 0.9635
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9695
+	Pre: 0.9786
+	Rec: 0.9600
+	F-Score: 0.9692
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9695
+	Pre: 0.9662
+	Rec: 0.9730
+	F-Score: 0.9696
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9160
+	Pre: 0.8947
+	Rec: 0.9430
+	F-Score: 0.9182
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9290
+	Pre: 0.9109
+	Rec: 0.9510
+	F-Score: 0.9305
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9275
+	Pre: 0.9195
+	Rec: 0.9370
+	F-Score: 0.9282
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9310
+	Pre: 0.9301
+	Rec: 0.9320
+	F-Score: 0.9311
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9260
+	Pre: 0.8790
+	Rec: 0.9880
+	F-Score: 0.9303
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9580
+	Pre: 0.9499
+	Rec: 0.9670
+	F-Score: 0.9584
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9640
+	Pre: 0.9622
+	Rec: 0.9660
+	F-Score: 0.9641
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9635
+	Pre: 0.9725
+	Rec: 0.9540
+	F-Score: 0.9631
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9610
+	Pre: 0.9366
+	Rec: 0.9890
+	F-Score: 0.9621
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9660
+	Pre: 0.9489
+	Rec: 0.9850
+	F-Score: 0.9666
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9685
+	Pre: 0.9625
+	Rec: 0.9750
+	F-Score: 0.9687
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9710
+	Pre: 0.9787
+	Rec: 0.9630
+	F-Score: 0.9708
+
+---------------
+[🗃️ ADVERSARIAL DATASET] google/SaltPepper
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.6895
+	Pre: 0.6343
+	Rec: 0.8950
+	F-Score: 0.7424
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.6340
+	Pre: 0.5833
+	Rec: 0.9380
+	F-Score: 0.7193
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.6850
+	Pre: 0.6264
+	Rec: 0.9170
+	F-Score: 0.7443
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.7690
+	Pre: 0.8337
+	Rec: 0.6720
+	F-Score: 0.7442
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.7470
+	Pre: 0.7250
+	Rec: 0.7960
+	F-Score: 0.7588
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.7235
+	Pre: 0.6568
+	Rec: 0.9360
+	F-Score: 0.7720
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.7280
+	Pre: 0.8413
+	Rec: 0.5620
+	F-Score: 0.6739
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.6970
+	Pre: 0.6364
+	Rec: 0.9190
+	F-Score: 0.7520
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.7330
+	Pre: 0.7153
+	Rec: 0.7740
+	F-Score: 0.7435
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.7490
+	Pre: 0.7490
+	Rec: 0.7490
+	F-Score: 0.7490
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.6800
+	Pre: 0.9072
+	Rec: 0.4010
+	F-Score: 0.5562
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.7305
+	Pre: 0.8630
+	Rec: 0.5480
+	F-Score: 0.6703
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.6955
+	Pre: 0.6345
+	Rec: 0.9220
+	F-Score: 0.7517
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.7005
+	Pre: 0.6460
+	Rec: 0.8870
+	F-Score: 0.7476
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.7010
+	Pre: 0.8655
+	Rec: 0.4760
+	F-Score: 0.6142
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.7480
+	Pre: 0.7897
+	Rec: 0.6760
+	F-Score: 0.7284
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.6715
+	Pre: 0.6676
+	Rec: 0.6830
+	F-Score: 0.6752
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.7685
+	Pre: 0.8270
+	Rec: 0.6790
+	F-Score: 0.7457
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.6895
+	Pre: 0.8680
+	Rec: 0.4470
+	F-Score: 0.5901
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.7525
+	Pre: 0.8053
+	Rec: 0.6660
+	F-Score: 0.7291
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.7285
+	Pre: 0.6972
+	Rec: 0.8080
+	F-Score: 0.7485
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.7265
+	Pre: 0.7061
+	Rec: 0.7760
+	F-Score: 0.7394
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.6840
+	Pre: 0.8983
+	Rec: 0.4150
+	F-Score: 0.5677
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.6460
+	Pre: 0.9451
+	Rec: 0.3100
+	F-Score: 0.4669
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.5460
+	Pre: 0.5243
+	Rec: 0.9930
+	F-Score: 0.6862
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.6755
+	Pre: 0.6200
+	Rec: 0.9070
+	F-Score: 0.7365
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.6900
+	Pre: 0.6518
+	Rec: 0.8160
+	F-Score: 0.7247
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.7050
+	Pre: 0.6905
+	Rec: 0.7430
+	F-Score: 0.7158
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.5920
+	Pre: 0.5509
+	Rec: 0.9960
+	F-Score: 0.7094
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.7360
+	Pre: 0.6723
+	Rec: 0.9210
+	F-Score: 0.7772
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.7310
+	Pre: 0.6645
+	Rec: 0.9330
+	F-Score: 0.7762
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.7395
+	Pre: 0.7118
+	Rec: 0.8050
+	F-Score: 0.7555
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.6680
+	Pre: 0.6043
+	Rec: 0.9730
+	F-Score: 0.7456
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.7370
+	Pre: 0.6936
+	Rec: 0.8490
+	F-Score: 0.7635
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.7355
+	Pre: 0.8070
+	Rec: 0.6190
+	F-Score: 0.7006
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.6715
+	Pre: 0.8889
+	Rec: 0.3920
+	F-Score: 0.5441
+
+---------------
+[🗃️ ADVERSARIAL DATASET] google/Sharpen
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.9255
+	Pre: 0.8872
+	Rec: 0.9750
+	F-Score: 0.9290
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.9460
+	Pre: 0.9523
+	Rec: 0.9390
+	F-Score: 0.9456
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.9315
+	Pre: 0.9566
+	Rec: 0.9040
+	F-Score: 0.9296
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.9415
+	Pre: 0.9455
+	Rec: 0.9370
+	F-Score: 0.9412
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9470
+	Pre: 0.9116
+	Rec: 0.9900
+	F-Score: 0.9492
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9705
+	Pre: 0.9599
+	Rec: 0.9820
+	F-Score: 0.9708
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.9700
+	Pre: 0.9700
+	Rec: 0.9700
+	F-Score: 0.9700
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9685
+	Pre: 0.9553
+	Rec: 0.9830
+	F-Score: 0.9690
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9645
+	Pre: 0.9445
+	Rec: 0.9870
+	F-Score: 0.9653
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9700
+	Pre: 0.9563
+	Rec: 0.9850
+	F-Score: 0.9704
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9755
+	Pre: 0.9722
+	Rec: 0.9790
+	F-Score: 0.9756
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9755
+	Pre: 0.9694
+	Rec: 0.9820
+	F-Score: 0.9757
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.9320
+	Pre: 0.9007
+	Rec: 0.9710
+	F-Score: 0.9346
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.9495
+	Pre: 0.9377
+	Rec: 0.9630
+	F-Score: 0.9502
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.9465
+	Pre: 0.9469
+	Rec: 0.9460
+	F-Score: 0.9465
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.9425
+	Pre: 0.9368
+	Rec: 0.9490
+	F-Score: 0.9429
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9565
+	Pre: 0.9294
+	Rec: 0.9880
+	F-Score: 0.9578
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9725
+	Pre: 0.9701
+	Rec: 0.9750
+	F-Score: 0.9726
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9735
+	Pre: 0.9759
+	Rec: 0.9710
+	F-Score: 0.9734
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9735
+	Pre: 0.9629
+	Rec: 0.9850
+	F-Score: 0.9738
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9565
+	Pre: 0.9262
+	Rec: 0.9920
+	F-Score: 0.9580
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9695
+	Pre: 0.9510
+	Rec: 0.9900
+	F-Score: 0.9701
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9810
+	Pre: 0.9810
+	Rec: 0.9810
+	F-Score: 0.9810
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9790
+	Pre: 0.9743
+	Rec: 0.9840
+	F-Score: 0.9791
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.9365
+	Pre: 0.9114
+	Rec: 0.9670
+	F-Score: 0.9384
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.9430
+	Pre: 0.9326
+	Rec: 0.9550
+	F-Score: 0.9437
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.9445
+	Pre: 0.9405
+	Rec: 0.9490
+	F-Score: 0.9447
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.9495
+	Pre: 0.9573
+	Rec: 0.9410
+	F-Score: 0.9491
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9485
+	Pre: 0.9118
+	Rec: 0.9930
+	F-Score: 0.9507
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9715
+	Pre: 0.9627
+	Rec: 0.9810
+	F-Score: 0.9718
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9745
+	Pre: 0.9703
+	Rec: 0.9790
+	F-Score: 0.9746
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9790
+	Pre: 0.9771
+	Rec: 0.9810
+	F-Score: 0.9790
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9690
+	Pre: 0.9492
+	Rec: 0.9910
+	F-Score: 0.9697
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9720
+	Pre: 0.9574
+	Rec: 0.9880
+	F-Score: 0.9724
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9815
+	Pre: 0.9772
+	Rec: 0.9860
+	F-Score: 0.9816
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9825
+	Pre: 0.9840
+	Rec: 0.9810
+	F-Score: 0.9825
+
+---------------
+[🗃️ ADVERSARIAL DATASET] google/SplitMergeRGB
+	[🧮 # ELEMENTS] cat: 1000
+	[🧮 # ELEMENTS] dog: 1000
+
+[🧮 EVALUATING] bing - alexnet 20/80
+	Acc: 0.8405
+	Pre: 0.9316
+	Rec: 0.7350
+	F-Score: 0.8217
+
+[🧮 EVALUATING] bing - alexnet 30/70
+	Acc: 0.8500
+	Pre: 0.9353
+	Rec: 0.7520
+	F-Score: 0.8337
+
+[🧮 EVALUATING] bing - alexnet 40/60
+	Acc: 0.8265
+	Pre: 0.9554
+	Rec: 0.6850
+	F-Score: 0.7979
+
+[🧮 EVALUATING] bing - alexnet 50/50
+	Acc: 0.8240
+	Pre: 0.9513
+	Rec: 0.6830
+	F-Score: 0.7951
+
+[🧮 EVALUATING] bing - resnet 20/80
+	Acc: 0.9195
+	Pre: 0.8969
+	Rec: 0.9480
+	F-Score: 0.9217
+
+[🧮 EVALUATING] bing - resnet 30/70
+	Acc: 0.9445
+	Pre: 0.9423
+	Rec: 0.9470
+	F-Score: 0.9446
+
+[🧮 EVALUATING] bing - resnet 40/60
+	Acc: 0.8970
+	Pre: 0.9853
+	Rec: 0.8060
+	F-Score: 0.8867
+
+[🧮 EVALUATING] bing - resnet 50/50
+	Acc: 0.9420
+	Pre: 0.9474
+	Rec: 0.9360
+	F-Score: 0.9416
+
+[🧮 EVALUATING] bing - vgg 20/80
+	Acc: 0.9430
+	Pre: 0.9268
+	Rec: 0.9620
+	F-Score: 0.9441
+
+[🧮 EVALUATING] bing - vgg 30/70
+	Acc: 0.9515
+	Pre: 0.9574
+	Rec: 0.9450
+	F-Score: 0.9512
+
+[🧮 EVALUATING] bing - vgg 40/60
+	Acc: 0.9485
+	Pre: 0.9696
+	Rec: 0.9260
+	F-Score: 0.9473
+
+[🧮 EVALUATING] bing - vgg 50/50
+	Acc: 0.9535
+	Pre: 0.9769
+	Rec: 0.9290
+	F-Score: 0.9523
+
+[🧮 EVALUATING] ddg - alexnet 20/80
+	Acc: 0.8785
+	Pre: 0.8804
+	Rec: 0.8760
+	F-Score: 0.8782
+
+[🧮 EVALUATING] ddg - alexnet 30/70
+	Acc: 0.8635
+	Pre: 0.9438
+	Rec: 0.7730
+	F-Score: 0.8499
+
+[🧮 EVALUATING] ddg - alexnet 40/60
+	Acc: 0.8785
+	Pre: 0.9277
+	Rec: 0.8210
+	F-Score: 0.8711
+
+[🧮 EVALUATING] ddg - alexnet 50/50
+	Acc: 0.8525
+	Pre: 0.9181
+	Rec: 0.7740
+	F-Score: 0.8399
+
+[🧮 EVALUATING] ddg - resnet 20/80
+	Acc: 0.9150
+	Pre: 0.8773
+	Rec: 0.9650
+	F-Score: 0.9190
+
+[🧮 EVALUATING] ddg - resnet 30/70
+	Acc: 0.9450
+	Pre: 0.9432
+	Rec: 0.9470
+	F-Score: 0.9451
+
+[🧮 EVALUATING] ddg - resnet 40/60
+	Acc: 0.9365
+	Pre: 0.9571
+	Rec: 0.9140
+	F-Score: 0.9350
+
+[🧮 EVALUATING] ddg - resnet 50/50
+	Acc: 0.9425
+	Pre: 0.9300
+	Rec: 0.9570
+	F-Score: 0.9433
+
+[🧮 EVALUATING] ddg - vgg 20/80
+	Acc: 0.9440
+	Pre: 0.9150
+	Rec: 0.9790
+	F-Score: 0.9459
+
+[🧮 EVALUATING] ddg - vgg 30/70
+	Acc: 0.9555
+	Pre: 0.9444
+	Rec: 0.9680
+	F-Score: 0.9560
+
+[🧮 EVALUATING] ddg - vgg 40/60
+	Acc: 0.9545
+	Pre: 0.9739
+	Rec: 0.9340
+	F-Score: 0.9535
+
+[🧮 EVALUATING] ddg - vgg 50/50
+	Acc: 0.9550
+	Pre: 0.9740
+	Rec: 0.9350
+	F-Score: 0.9541
+
+[🧮 EVALUATING] google - alexnet 20/80
+	Acc: 0.8855
+	Pre: 0.9159
+	Rec: 0.8490
+	F-Score: 0.8812
+
+[🧮 EVALUATING] google - alexnet 30/70
+	Acc: 0.8745
+	Pre: 0.9270
+	Rec: 0.8130
+	F-Score: 0.8663
+
+[🧮 EVALUATING] google - alexnet 40/60
+	Acc: 0.8730
+	Pre: 0.9357
+	Rec: 0.8010
+	F-Score: 0.8631
+
+[🧮 EVALUATING] google - alexnet 50/50
+	Acc: 0.8265
+	Pre: 0.9631
+	Rec: 0.6790
+	F-Score: 0.7965
+
+[🧮 EVALUATING] google - resnet 20/80
+	Acc: 0.9295
+	Pre: 0.8908
+	Rec: 0.9790
+	F-Score: 0.9328
+
+[🧮 EVALUATING] google - resnet 30/70
+	Acc: 0.9430
+	Pre: 0.9326
+	Rec: 0.9550
+	F-Score: 0.9437
+
+[🧮 EVALUATING] google - resnet 40/60
+	Acc: 0.9480
+	Pre: 0.9628
+	Rec: 0.9320
+	F-Score: 0.9472
+
+[🧮 EVALUATING] google - resnet 50/50
+	Acc: 0.9530
+	Pre: 0.9729
+	Rec: 0.9320
+	F-Score: 0.9520
+
+[🧮 EVALUATING] google - vgg 20/80
+	Acc: 0.9455
+	Pre: 0.9144
+	Rec: 0.9830
+	F-Score: 0.9475
+
+[🧮 EVALUATING] google - vgg 30/70
+	Acc: 0.9565
+	Pre: 0.9368
+	Rec: 0.9790
+	F-Score: 0.9575
+
+[🧮 EVALUATING] google - vgg 40/60
+	Acc: 0.9615
+	Pre: 0.9724
+	Rec: 0.9500
+	F-Score: 0.9611
+
+[🧮 EVALUATING] google - vgg 50/50
+	Acc: 0.9515
+	Pre: 0.9839
+	Rec: 0.9180
+	F-Score: 0.9498
