@@ -79,6 +79,7 @@ class PlotUtils:
     def plotResults(self, title=None, x=[], yArr=[],
                     xLabel=None, xTicks=None, xTicksPosition=None, xTicksRotation=0,
                     yLim=None, yLabel=None, yTicks=None, yTicksPosition=None, yTicksRotation=0,
+                    yErrors=None,
                     legend=None, legendLocation=legendLoc,
                     style="line", showGrid=False, gridAxis="both", fillPlot=False,
                     twinIndexCut=None,
@@ -118,8 +119,15 @@ class PlotUtils:
                 [np.min(yNum), minY]
             ) if not minY is None else np.min(yNum)
 
-            if style == "line":
-                plt.plot(self.x, yNum, label=label, color=self.colorScheme[i])
+            if style == "line" or style == "points":
+                if yErrors:
+                    plt.errorbar(self.x, yNum, yerr=yErrors[i], color=self.colorScheme[i],
+                                 linestyle="", capsize=8, elinewidth=3, capthick=3)
+
+                if style == "line":
+                    plt.plot(self.x, yNum, label=label, color=self.colorScheme[i])
+                else:
+                    plt.plot(self.x, yNum, label=label, color=self.colorScheme[i], marker="o", linestyle="", markersize=8)
 
                 if fillPlot:
                     plt.fill_between(self.x, yNum, alpha=self.fillAlpha,
@@ -130,6 +138,10 @@ class PlotUtils:
                 xOffset = -self.barWidth / 2 + barWidth / 2 + barWidth * i
                 plt.bar(self.x + xOffset, yNum, width=barWidth,
                         label=label, align="center", color=self.colorScheme[i])
+                
+                if yErrors:
+                    plt.errorbar(self.x + xOffset, yNum, yerr=yErrors[i], color="#333333",
+                                 linestyle="", capsize=8, elinewidth=2, capthick=2)
 
             elif style == "polar":
                 self.x = np.linspace(
