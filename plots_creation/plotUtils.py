@@ -235,6 +235,9 @@ class PlotUtils:
                 fig.legend(loc=legendLocation, fontsize=self.legendLabelDim)
             else:
                 plt.legend(loc=legendLocation, fontsize=self.legendLabelDim)
+        
+        if not title is None:
+            plt.title(title, fontsize=self.titleDim, pad=self.titlePad)
 
         if not saveTitle is None:
             baseDir = "plots"
@@ -251,8 +254,5 @@ class PlotUtils:
                             dpi=self.figDPI,
                             bbox_inches=self.figBBox,
                             pad_inches=self.figPad)
-
-        if not title is None:
-            plt.title(title, fontsize=self.titleDim, pad=self.titlePad)
 
         plt.show()
