@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-datasets_dir = "./tmp"
+datasets_dir = "../tmp"
 
 @app.route("/deleteImages", methods=["POST"])
 def deleteImages():
@@ -29,7 +29,7 @@ def deleteImages():
 def get_image():
     path = request.args.get('p').replace("/", os.sep)
     img = request.args.get('i')
-    return send_file(os.path.join(os.path.join("." + datasets_dir, path), img), mimetype='image/jpeg')
+    return send_file(os.path.join(os.path.join(datasets_dir, path), img), mimetype='image/jpeg')
 
 @app.route('/getFolders')
 def getDatasets():

@@ -79,8 +79,7 @@ class PlotUtils:
     def plotResults(self, title=None, x=[], yArr=[],
                     xLabel=None, xTicks=None, xTicksPosition=None, xTicksRotation=0,
                     yLim=None, yLabel=None, yTicks=None, yTicksPosition=None, yTicksRotation=0,
-                    yErrors=None,
-                    legend=None, legendLocation=legendLoc,
+                    yErrors=None, legend=None,
                     style="line", showGrid=False, gridAxis="both", fillPlot=False,
                     twinIndexCut=None,
                     figSize=figSize, saveTitle=None):
@@ -244,9 +243,9 @@ class PlotUtils:
 
         if not legend is None:
             if not twinIndexCut is None:
-                fig.legend(loc=legendLocation, fontsize=self.legendLabelDim)
+                fig.legend(loc=self.legendLoc, fontsize=self.legendLabelDim)
             else:
-                plt.legend(loc=legendLocation, fontsize=self.legendLabelDim)
+                plt.legend(loc=self.legendLoc, fontsize=self.legendLabelDim)
         
         if not title is None:
             plt.title(title, fontsize=self.titleDim, pad=self.titlePad)
