@@ -2,10 +2,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/luca-martinelli-09/orco-gan">
-    <img src="https://i.postimg.cc/P5m5r2sX/cat-no-bg.png" alt="Logo" width="100" height="100">
+    <img src="https://i.postimg.cc/P5m5r2sX/cat-no-bg.png" alt="Logo" width="150" height="150">
   </a>
 
-  <h3 align="center">Learn The Art and Put It Apart</h3>
+  <h1 align="center">Learn The Art and Put It Apart</h1>
 
   <p align="center">
     Transferability of Adversarial Attacks over different Datasets
