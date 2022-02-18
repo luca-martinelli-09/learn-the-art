@@ -32,3 +32,22 @@ Model Trainer [![Open In Colab](https://colab.research.google.com/assets/colab-b
 Adversarial Samples Generator [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luca-martinelli-09/orco-gan/blob/main/adversarialSamplesGenerator.ipynb)
 
 Model Evaluator [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luca-martinelli-09/orco-gan/blob/main/modelEvaluator.ipynb)
+
+## Cases
+```
+x = {M, D, B}
+
+0: x_{src} != x_{trg}
+1: x_{src} = x_{trg}
+```
+
+| Case # | M | D | B |
+|--------|---|---|---|
+| C1     | 0 | 0 | 0 |
+| C2     | 0 | 0 | 1 |
+| C3     | 0 | 1 | 0 |
+| C4     | 0 | 1 | 1 |
+| C5     | 1 | 0 | 0 |
+| C6     | 1 | 0 | 1 |
+| C7     | 1 | 1 | 0 |
+| C8     | 1 | 1 | 1 |
