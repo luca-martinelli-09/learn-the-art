@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/luca-martinelli-09/orco-gan">
+  <a href="https://github.com/luca-martinelli-09/learn-the-art">
     <img src="https://i.postimg.cc/P5m5r2sX/cat-no-bg.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -143,11 +143,11 @@ Plots are created in order to visualize different results. Since we have a huge 
 
 ## 🏃🏽 Run it Yourself
 
-Model Trainer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luca-martinelli-09/orco-gan/blob/main/modelTrainer.ipynb)
+Model Trainer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luca-martinelli-09/learn-the-art/blob/main/modelTrainer.ipynb)
 
-Adversarial Samples Generator [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luca-martinelli-09/orco-gan/blob/main/adversarialSamplesGenerator.ipynb)
+Adversarial Samples Generator [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luca-martinelli-09/learn-the-art/blob/main/adversarialSamplesGenerator.ipynb)
 
-Model Evaluator [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luca-martinelli-09/orco-gan/blob/main/modelEvaluator.ipynb)
+Model Evaluator [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luca-martinelli-09/learn-the-art/blob/main/modelEvaluator.ipynb)
 
 <p align="right"><a href="#top">(back to top)</a></p>
 
