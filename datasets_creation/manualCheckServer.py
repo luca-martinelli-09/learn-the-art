@@ -3,7 +3,11 @@ import os
 
 app = Flask(__name__)
 
-datasets_dir = "../tmp"
+CAT_DOG = "catDog"
+MAN_WOMAN = "manWoman"
+BIKE_MOTORBIKE = "bikeMotorbike"
+
+datasets_dir = "../tmp/" + MAN_WOMAN
 
 @app.route("/deleteImages", methods=["POST"])
 def deleteImages():

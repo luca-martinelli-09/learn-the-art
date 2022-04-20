@@ -93,8 +93,13 @@ def fetch_images_from_keyword(pool_sema: threading.Semaphore, img_sema: threadin
         request_url = 'https://www.bing.com/images/async?q=' + urllib.parse.quote_plus(keyword) + '&first=' + str(
             current) + '&count=35&qft=' + ('' if filters is None else filters)
         request = urllib.request.Request(request_url, None, headers=urlopenheader)
-        response = urllib.request.urlopen(request)
-        html = response.read().decode('utf8')
+        
+        try:
+            response = urllib.request.urlopen(request)
+            html = response.read().decode('utf8')
+        except Exception as e:
+            print(e)
+
         links = re.findall('murl&quot;:&quot;(.*?)&quot;', html)
         try:
             if links[-1] == last:
