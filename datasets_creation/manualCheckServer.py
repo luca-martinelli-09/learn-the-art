@@ -1,13 +1,10 @@
+from ..tasks import currentTask
 from flask import Flask, render_template, send_file, jsonify, request
 import os
 
 app = Flask(__name__)
 
-CAT_DOG = "catDog"
-MAN_WOMAN = "manWoman"
-BIKE_MOTORBIKE = "bikeMotorbike"
-
-datasets_dir = "../tmp/" + MAN_WOMAN
+datasets_dir = "../tmp/" + currentTask
 
 @app.route("/deleteImages", methods=["POST"])
 def deleteImages():
