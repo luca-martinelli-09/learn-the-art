@@ -1,6 +1,13 @@
-from ..tasks import currentTask
-from flask import Flask, render_template, send_file, jsonify, request
+import sys
 import os
+
+rootFolder = os.path.abspath(os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(rootFolder)
+
+from utils.tasks import currentTask
+
+from flask import Flask, render_template, send_file, jsonify, request
 
 app = Flask(__name__)
 
